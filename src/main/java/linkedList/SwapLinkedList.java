@@ -3,7 +3,7 @@ package linkedList;
 public class SwapLinkedList {
 
     public static void main(String[] args) {
-        ListNode headRecursion = swapListRecursion(ListNode.of());
+        //ListNode headRecursion = swapListRecursion(ListNode.of());
         ListNode headLoop = swapListLoop(ListNode.of());
     }
 
@@ -12,21 +12,23 @@ public class SwapLinkedList {
         ListNode p = swapListRecursion(head.next);
 
         return p;
-
     }
 
     public static ListNode swapListLoop(ListNode head) {
         if (head == null) return head;
-        ListNode pre = null;
-        ListNode cur = head;
-        ListNode temp;
-        while (cur != null) {
-            temp = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = temp;
+        if (head.next == null) return head;
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        ListNode temp = pre;
+        while(temp.next != null && temp.next.next != null) {
+            ListNode start = temp.next;
+            ListNode end = temp.next.next;
+            temp.next = end;
+            start.next = end.next;
+            end.next = start;
+            temp = start;
         }
-        return pre;
+        return pre.next;
     }
 
 }
