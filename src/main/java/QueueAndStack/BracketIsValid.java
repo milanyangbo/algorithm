@@ -1,11 +1,11 @@
-package Queue;
+package QueueAndStack;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Stack;
 
-public class IsValid {
+public class BracketIsValid {
 
     public static void main(String[] args) {
         System.out.println(isVaild("(("));
