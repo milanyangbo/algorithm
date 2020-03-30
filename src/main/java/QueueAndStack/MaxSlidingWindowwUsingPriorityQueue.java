@@ -3,6 +3,7 @@ package QueueAndStack;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/** https://leetcode-cn.com/problems/sliding-window-maximum/ */
 public class MaxSlidingWindowwUsingPriorityQueue {
 
   public static void main(String[] args) {
@@ -22,17 +23,15 @@ public class MaxSlidingWindowwUsingPriorityQueue {
     int resIndex = 0;
     for (int i = 0; i < nums.length; i++) {
       int num = nums[i];
-      if (priorityQueue.size() >= k) {
+      if (i >= k) {
         priorityQueue.remove(nums[i - k]);
       }
 
       priorityQueue.add(num);
 
-      if (priorityQueue.size() == k) {
-        res[resIndex] = priorityQueue.peek();
-        resIndex++;
+      if (i >= (k - 1)) {
+        res[resIndex++] = priorityQueue.peek();
       }
-
     }
     return res;
   }

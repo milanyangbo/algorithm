@@ -2,6 +2,7 @@ package QueueAndStack;
 
 import java.util.Stack;
 
+/** https://leetcode-cn.com/problems/implement-queue-using-stacks/description/ */
 public class UsingStackToQueue {
 
   public static void main(String[] args) {

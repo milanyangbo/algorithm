@@ -3,6 +3,7 @@ package QueueAndStack;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/** https://leetcode-cn.com/problems/implement-stack-using-queues/description/ */
 public class UsingQueueToStack {
 
   public static void main(String[] args) {}

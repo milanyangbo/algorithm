@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Stack;
 
+/** https://leetcode-cn.com/problems/valid-parentheses/description/ */
 public class BracketIsValid {
 
   public static void main(String[] args) {

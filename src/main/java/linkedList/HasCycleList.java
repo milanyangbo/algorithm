@@ -2,6 +2,7 @@ package linkedList;
 
 import java.util.Objects;
 
+/** https://leetcode-cn.com/problems/linked-list-cycle/ */
 public class HasCycleList {
 
   public static void main(String[] args) {}
