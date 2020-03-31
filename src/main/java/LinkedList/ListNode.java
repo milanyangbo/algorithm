@@ -1,4 +1,4 @@
-package linkedList;
+package LinkedList;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

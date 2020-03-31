@@ -1,4 +1,4 @@
-package linkedList;
+package LinkedList;
 
 /** https://leetcode-cn.com/problems/reverse-linked-list/ */
 public class ReverseLinkedList {
