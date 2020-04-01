@@ -5,11 +5,13 @@ public class ReverseLinkedList {
 
   public static void main(String[] args) {
     ListNode headRecursion = reverseListRecursion(ListNode.of());
-    ListNode headLoop = reverseListLoop(ListNode.of());
+    // ListNode headLoop = reverseListLoop(ListNode.of());
   }
 
   public static ListNode reverseListRecursion(ListNode head) {
-    if (head == null || head.next == null) return head;
+    if (head == null || head.next == null) {
+      return head;
+    }
     ListNode p = reverseListRecursion(head.next);
     head.next.next = head;
     head.next = null;
@@ -17,7 +19,9 @@ public class ReverseLinkedList {
   }
 
   public static ListNode reverseListLoop(ListNode head) {
-    if (head == null) return head;
+    if (head == null) {
+      return null;
+    }
     ListNode pre = null;
     ListNode cur = head;
     ListNode temp;
