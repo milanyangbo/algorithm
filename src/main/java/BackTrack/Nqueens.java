@@ -8,7 +8,7 @@ public class Nqueens {
     new Nqueens().solveNQueens(4);
   }
 
-  /** https://leetcode-cn.com/problems/n-Queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/ */
+  /** https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/ */
   public List<List<String>> solveNQueens(int n) {
     int row = 0;
     char[][] bucket = new char[n][n];
