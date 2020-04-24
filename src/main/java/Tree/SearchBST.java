@@ -11,8 +11,13 @@ public class SearchBST {
       return root;
     }
 
-    TreeNode left = searchBST(root.left, val);
-    TreeNode right = searchBST(root.right, val);
+    TreeNode left = null;
+    TreeNode right = null;
+    if (val < root.val) {
+      left = searchBST(root.left, val);
+    } else {
+      right = searchBST(root.right, val);
+    }
 
     if (left != null) {
       return left;
