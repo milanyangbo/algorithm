@@ -4,10 +4,10 @@ package MapAndSet;
 public class ValidAnagram {
 
   public static void main(String[] args) {
-    isAnagram("anagram", "nagaram");
+    new ValidAnagram().isAnagram("anagram", "nagaram");
   }
 
-  public static boolean isAnagram(String s, String t) {
+  public boolean isAnagram(String s, String t) {
     if (s.length() != t.length()) {
       return false;
     }

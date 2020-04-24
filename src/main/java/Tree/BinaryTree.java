@@ -6,15 +6,17 @@ import java.util.Stack;
 public class BinaryTree {
 
   public static void main(String[] args) {
-    // isValidBSTLoop(of(new int[] {2, 1, 3}));
-    // isValidBSTLoop(of(new int[] {5, 1, 4, -Integer.MIN_VALUE, -Integer.MIN_VALUE, 3, 6}));
-    // isValidBSTLoop(of(new int[] {1, 2, 3, 4, 5, 6, 7}));
-    // isValidBSTInOrder(of(new int[] {5, 1, 4, -Integer.MIN_VALUE, -Integer.MIN_VALUE, 3, 6}));
-    // isValidBSTInOrder(of(new int[] {1, 2, 3, 4, 5, 6, 7}));
-    // isValidBSTInOrder(of(new int[] {0, -1}));
+    // new BinaryTree().isValidBSTLoop(of(new int[] {2, 1, 3}));
+    // new BinaryTree().isValidBSTLoop(of(new int[] {5, 1, 4, -Integer.MIN_VALUE,
+    // -Integer.MIN_VALUE, 3, 6}));
+    // new BinaryTree().isValidBSTLoop(of(new int[] {1, 2, 3, 4, 5, 6, 7}));
+    // new BinaryTree().isValidBSTInOrder(of(new int[] {5, 1, 4, -Integer.MIN_VALUE,
+    // -Integer.MIN_VALUE, 3, 6}));
+    // new BinaryTree().isValidBSTInOrder(of(new int[] {1, 2, 3, 4, 5, 6, 7}));
+    // new BinaryTree().isValidBSTInOrder(of(new int[] {0, -1}));
   }
 
-  public static boolean isValidBSTLoop(TreeNode root) {
+  public boolean isValidBSTLoop(TreeNode root) {
     if (root == null) {
       return false;
     }
@@ -22,7 +24,7 @@ public class BinaryTree {
     return validRecursive(root, null, null);
   }
 
-  private static boolean validRecursive(TreeNode node, Integer lower, Integer upper) {
+  private boolean validRecursive(TreeNode node, Integer lower, Integer upper) {
     if (node == null) {
       return true;
     }
@@ -52,7 +54,7 @@ public class BinaryTree {
     return false;
   }
 
-  public static boolean isValidBSTInOrder(TreeNode root) {
+  public boolean isValidBSTInOrder(TreeNode root) {
     if (root == null) {
       return true;
     }

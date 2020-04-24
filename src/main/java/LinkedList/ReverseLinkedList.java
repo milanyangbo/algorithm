@@ -4,11 +4,11 @@ package LinkedList;
 public class ReverseLinkedList {
 
   public static void main(String[] args) {
-    ListNode headRecursion = reverseListRecursion(ListNode.of());
-    // ListNode headLoop = reverseListLoop(ListNode.of());
+    ListNode headRecursion = new ReverseLinkedList().reverseListRecursion(ListNode.of());
+    // ListNode headLoop = new ReverseLinkedList().reverseListLoop(ListNode.of());
   }
 
-  public static ListNode reverseListRecursion(ListNode head) {
+  public ListNode reverseListRecursion(ListNode head) {
     if (head == null || head.next == null) {
       return head;
     }
@@ -18,7 +18,7 @@ public class ReverseLinkedList {
     return p;
   }
 
-  public static ListNode reverseListLoop(ListNode head) {
+  public ListNode reverseListLoop(ListNode head) {
     if (head == null) {
       return null;
     }

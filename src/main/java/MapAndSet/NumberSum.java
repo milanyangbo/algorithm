@@ -5,13 +5,13 @@ import java.util.*;
 /** https://leetcode-cn.com/problems/two-sum/ https://leetcode-cn.com/problems/3sum/ */
 public class NumberSum {
   public static void main(String[] args) {
-    //    twoSum(new int[] {3, 2, 4}, 6);
-    //    threeSum(new int[] {-1, 0, 1, 2, -1, -4});
-    //    threeSum(new int[] {1, 2, -2, -1});
-    threeSum(nums1);
+    //    new NumberSum().twoSum(new int[] {3, 2, 4}, 6);
+    //    new NumberSum().threeSum(new int[] {-1, 0, 1, 2, -1, -4});
+    //    new NumberSum().threeSum(new int[] {1, 2, -2, -1});
+    new NumberSum().threeSum(nums1);
   }
 
-  public static int[] twoSum(int[] nums, int target) {
+  public int[] twoSum(int[] nums, int target) {
 
     Map<Integer, Integer> map = new HashMap<>();
     for (int i = 0; i < nums.length; i++) {
@@ -29,7 +29,7 @@ public class NumberSum {
     throw new IllegalArgumentException(" no two sum");
   }
 
-  public static List<List<Integer>> threeSum(int[] nums) {
+  public List<List<Integer>> threeSum(int[] nums) {
 
     Set<List<Integer>> result = new HashSet<>();
 

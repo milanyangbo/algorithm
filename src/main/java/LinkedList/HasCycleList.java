@@ -7,7 +7,7 @@ public class HasCycleList {
 
   public static void main(String[] args) {}
 
-  public static boolean HasCycle(ListNode head) {
+  public boolean HasCycle(ListNode head) {
     if (head == null || head.next == null) return false;
     ListNode slow = head;
     ListNode fast = head;

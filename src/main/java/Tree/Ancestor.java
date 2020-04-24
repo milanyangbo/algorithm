@@ -9,7 +9,7 @@ public class Ancestor {
   public static void main(String[] args) {}
 
   /** 如果有父指针，从叶子节点回溯到根节点形成链表，判断两个链表最近的交集节点 */
-  public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+  public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
     if (root == null) {
       return null;
     }

@@ -5,17 +5,17 @@ public class SwapLinkedList {
 
   public static void main(String[] args) {
     // ListNode headRecursion = swapListRecursion(ListNode.of());
-    ListNode headLoop = swapListLoop(ListNode.of());
+    ListNode headLoop = new SwapLinkedList().swapListLoop(ListNode.of());
   }
 
-  public static ListNode swapListRecursion(ListNode head) {
+  public ListNode swapListRecursion(ListNode head) {
     if (head == null || head.next == null) return head;
     ListNode p = swapListRecursion(head.next);
 
     return p;
   }
 
-  public static ListNode swapListLoop(ListNode head) {
+  public ListNode swapListLoop(ListNode head) {
     if (head == null) return head;
     if (head.next == null) return head;
     ListNode pre = new ListNode(0);

@@ -28,7 +28,7 @@ public class Sudoku {
     HashMap<Integer, Integer>[] columns = new HashMap[9];
     HashMap<Integer, Integer>[] boxes = new HashMap[9];
     for (int i = 0; i < 9; i++) {
-      rows[i] = new HashMap<Integer, Integer>();
+      rows[i] = new HashMap<>();
       columns[i] = new HashMap<Integer, Integer>();
       boxes[i] = new HashMap<Integer, Integer>();
     }
