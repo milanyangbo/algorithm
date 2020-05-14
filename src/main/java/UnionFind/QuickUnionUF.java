@@ -6,14 +6,6 @@ public class QuickUnionUF {
 
   public QuickUnionUF() {}
 
-  public QuickUnionUF(int N) {
-    roots = new int[N];
-    for (int i = 0; i < N; i++) {
-      roots[i] = i;
-      ++count;
-    }
-  }
-
   private int findRoot(int i) {
     int root = i;
     while (root != roots[root]) {
@@ -34,7 +26,7 @@ public class QuickUnionUF {
   public void union(int p, int q) {
     int qroot = findRoot(q);
     int proot = findRoot(p);
-    roots[qroot] = proot;
+    roots[proot] = qroot;
     if (qroot != proot) {
       --count;
     }
