@@ -16,7 +16,7 @@ public class SqrX {
     int lower = 2;
     int upper = x / 2;
     while (lower <= upper) {
-      int mid = (upper - lower) / 2 + lower;
+      int mid = (upper - lower) >> 1 + lower;
       if (mid == x / mid) {
         return mid;
       } else if (mid > x / mid) {
