@@ -1,10 +1,12 @@
 package Tree;
 
-/** https://time.geekbang.org/column/article/68334 */
+/**
+ * https://time.geekbang.org/column/article/68334 https://mp.weixin.qq.com/s/fOpVu5M_MXLz_9DBLzvCFA
+ */
 public class BinarySearchTree {
-  private Node tree;
+  private TreeNode tree;
 
-  public Node find(int data) {
+  public TreeNode find(int data) {
     return null;
   }
 
@@ -16,12 +18,28 @@ public class BinarySearchTree {
     return;
   }
 
-  public static class Node {
-    private int data;
-    private Node left;
-    private Node right;
+  int maxDeath(TreeNode node) {
+    return 1;
+  }
 
-    public Node(int data) {
+  int getMinDepth(TreeNode root) {
+    return 1;
+  }
+
+  int getMin(TreeNode root) {
+    return 1;
+  }
+
+  boolean isBalanced(TreeNode node) {
+    return false;
+  }
+
+  public static class TreeNode {
+    private int data;
+    private TreeNode left;
+    private TreeNode right;
+
+    public TreeNode(int data) {
       this.data = data;
     }
   }
