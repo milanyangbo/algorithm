@@ -1,4 +1,4 @@
-package Bitwise;
+package FSM;
 
 import java.util.HashMap;
 import java.util.Map;

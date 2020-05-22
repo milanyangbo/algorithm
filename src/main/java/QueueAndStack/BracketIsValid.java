@@ -9,12 +9,12 @@ import java.util.Stack;
 public class BracketIsValid {
 
   public static void main(String[] args) {
-//    System.out.println(new BracketIsValid().isVaild("(("));
-//    System.out.println(new BracketIsValid().isVaild("()"));
-//    System.out.println(new BracketIsValid().isVaild("()[]{}"));
-//    System.out.println(new BracketIsValid().isVaild("(]"));
-//    System.out.println(new BracketIsValid().isVaild("([)]"));
-//    System.out.println(new BracketIsValid().isVaild("{[]}"));
+    //    System.out.println(new BracketIsValid().isVaild("(("));
+    //    System.out.println(new BracketIsValid().isVaild("()"));
+    //    System.out.println(new BracketIsValid().isVaild("()[]{}"));
+    //    System.out.println(new BracketIsValid().isVaild("(]"));
+    //    System.out.println(new BracketIsValid().isVaild("([)]"));
+    //    System.out.println(new BracketIsValid().isVaild("{[]}"));
     System.out.println(new BracketIsValid().isVaild("(((()())()()))()(())"));
   }
 
@@ -29,7 +29,6 @@ public class BracketIsValid {
   }
 
   public boolean isVaild(String s) {
-
     if (s == null || s == "" || s.length() == 1) {
       return false;
     }

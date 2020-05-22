@@ -14,21 +14,27 @@ public class MergeKLists {
     ListNode node2 = new ListNode(1).setNext(new ListNode(3).setNext(new ListNode(4)));
     ListNode node3 = new ListNode(2).setNext(new ListNode(6));
     ListNode[] lists = new ListNode[] {node1, node2, node3};
-    new MergeKLists().mergeKLists(lists);
+    new MergeKLists().mergeKLists(new ListNode[] {});
   }
 
   public ListNode mergeKLists(ListNode[] lists) {
-    PriorityQueue<ListNode> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o.val));
+    if (lists == null || lists.length == 0) {
+      return null;
+    }
+    PriorityQueue<ListNode> queue =
+        new PriorityQueue<>(lists.length, Comparator.comparingInt(o -> o.val));
     for (ListNode node : lists) {
-      while (node != null) {
+      if (node != null) {
         queue.add(node);
-        node = node.next;
       }
     }
     ListNode head = new ListNode(-1);
     ListNode cur = head;
     while (!queue.isEmpty()) {
       ListNode node = queue.poll();
+      if (node.next != null) {
+        queue.offer(node.next);
+      }
       cur.next = node;
       cur = node;
     }
