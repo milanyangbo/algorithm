@@ -4,7 +4,7 @@ package Tree;
  * https://time.geekbang.org/column/article/68334 https://mp.weixin.qq.com/s/fOpVu5M_MXLz_9DBLzvCFA
  */
 public class BinarySearchTree {
-  private TreeNode tree;
+  private TreeNode root;
 
   public TreeNode find(int data) {
     return null;
