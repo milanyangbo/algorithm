@@ -1,4 +1,4 @@
-package QueueAndStack;
+package QueueAndStackAndArray;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package QueueAndStack;
+package QueueAndStackAndArray;
 
 public class LoopQueue {
   private Long[] data;

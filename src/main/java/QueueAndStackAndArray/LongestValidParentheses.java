@@ -1,4 +1,4 @@
-package QueueAndStack;
+package QueueAndStackAndArray;
 
 /** https://leetcode-cn.com/problems/longest-valid-parentheses/ */
 public class LongestValidParentheses {

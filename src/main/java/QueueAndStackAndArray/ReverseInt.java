@@ -1,4 +1,4 @@
-package QueueAndStack;
+package QueueAndStackAndArray;
 
 /** https://leetcode-cn.com/problems/reverse-integer/ */
 public class ReverseInt {
