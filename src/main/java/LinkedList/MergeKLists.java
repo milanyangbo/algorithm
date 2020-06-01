@@ -1,8 +1,5 @@
 package LinkedList;
 
-import lombok.Data;
-import lombok.experimental.Accessors;
-
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -40,16 +37,5 @@ public class MergeKLists {
     }
     cur.next = null;
     return head.next;
-  }
-
-  @Data
-  @Accessors(chain = true)
-  public static class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-    }
   }
 }
