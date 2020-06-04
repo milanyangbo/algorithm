@@ -1,7 +1,7 @@
 package BackTrack;
 
 /** https://leetcode-cn.com/problems/regular-expression-matching/ */
-public class IsMatch {
+public class RegularExpressionMatching {
 
   /**
    * 这种匹配思路其实就是不断地减掉s和p的可以匹配首部，直至一个或两个字符串被减为空的时候，根据最终情况来得出结论。

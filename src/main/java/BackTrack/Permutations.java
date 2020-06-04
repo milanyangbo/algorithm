@@ -4,12 +4,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 /** https://leetcode-cn.com/problems/permutations/ */
-public class Permute {
+public class Permutations {
   public static void main(String[] args) {
-    List<List<Integer>> res = new Permute().permute(new int[] {1, 2, 3});
+    List<List<Integer>> res = new Permutations().permute(new int[] {1, 2, 3});
   }
 
-  /** https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/ */
   public List<List<Integer>> permute(int[] nums) {
     // 记录「路径」
     LinkedList<Integer> track = new LinkedList<>();
