@@ -1,7 +1,7 @@
 package DynamicProgramming;
 
 /** https://leetcode-cn.com/problems/regular-expression-matching/ */
-public class IsMatch {
+public class RegularExpressionMatching {
 
   public boolean isMatch(String s, String p) {
     boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
