@@ -27,9 +27,7 @@ public class LetterCombinations {
       };
 
   public List<String> letterCombinations(String digits) {
-    if (digits == null || digits.length() == 0 || digits.contains("1")) {
-      return new ArrayList<>();
-    }
+    if (digits == null || digits.length() == 0 || digits.contains("1")) return new ArrayList<>();
     backTrack(digits, "");
     return list;
   }
