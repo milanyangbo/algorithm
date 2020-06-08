@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** https://leetcode-cn.com/problems/zigzag-conversion/ */
-public class Convert {
+public class ZigzagConversion {
 
   public static void main(String[] args) {
-    new Convert().convert("PAYPALISHIRING", 3);
+    new ZigzagConversion().convert("PAYPALISHIRING", 3);
   }
 
   public String convert(String s, int numRows) {

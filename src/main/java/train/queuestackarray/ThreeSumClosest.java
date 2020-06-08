@@ -12,16 +12,10 @@ public class ThreeSumClosest {
       int start = i + 1, end = nums.length - 1;
       while (start < end) {
         int val = nums[i] + nums[start] + nums[end];
-        if (Math.abs(val - target) < Math.abs(ans - target)) {
-          ans = val;
-        }
-        if (val < target) {
-          start++;
-        } else if (val > target) {
-          end--;
-        } else {
-          return ans;
-        }
+        if (Math.abs(val - target) < Math.abs(ans - target)) ans = val;
+        if (val < target) start++;
+        else if (val > target) end--;
+        else return ans;
       }
     }
     return ans;

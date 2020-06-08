@@ -2,11 +2,11 @@ package train.queuestackarray;
 
 import java.util.Stack;
 
-/** https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/submissions/ */
-public class EvalRPN {
+/** https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/*/
+public class EvaluateReversePolishNotation {
 
   public static void main(String[] args) {
-    int reslut = new EvalRPN().evalRPN(new String[] {"4", "13", "5", "/", "+"});
+    int reslut = new EvaluateReversePolishNotation().evalRPN(new String[] {"4", "13", "5", "/", "+"});
   }
 
   public int evalRPN(String[] tokens) {

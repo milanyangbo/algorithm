@@ -3,24 +3,24 @@ package train.queuestackarray;
 import java.util.PriorityQueue;
 
 /** https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/ */
-public class KthLargest {
+public class KthLargestElementInAStream {
 
   public static void main(String[] args) {
     int k = 3;
     int[] nums = {4, 5, 8, 2};
 
-    KthLargest kthLargest = new KthLargest(k, nums);
-    kthLargest.add(3);
-    kthLargest.add(5);
-    kthLargest.add(10);
-    kthLargest.add(9);
-    kthLargest.add(4);
+    KthLargestElementInAStream kthLargestElementInAStream = new KthLargestElementInAStream(k, nums);
+    kthLargestElementInAStream.add(3);
+    kthLargestElementInAStream.add(5);
+    kthLargestElementInAStream.add(10);
+    kthLargestElementInAStream.add(9);
+    kthLargestElementInAStream.add(4);
   }
 
   private PriorityQueue<Integer> priorityQueue;
   private int k;
 
-  public KthLargest(int k, int[] nums) {
+  public KthLargestElementInAStream(int k, int[] nums) {
     priorityQueue = new PriorityQueue<>(k);
     this.k = k;
     if (nums != null) {

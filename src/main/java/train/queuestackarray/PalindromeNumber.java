@@ -1,7 +1,7 @@
 package train.queuestackarray;
 
 /** https://leetcode-cn.com/problems/palindrome-number/ */
-public class IsPalindrome {
+public class PalindromeNumber {
   public boolean isPalindrome(int x) {
     // 如上所述，当 x < 0 时，x 不是回文数。
     // 同样地，如果数字的最后一位是 0，为了使该数字为回文，
