@@ -3,14 +3,25 @@ package train.linked;
 /** https://leetcode-cn.com/problems/partition-list/ */
 public class PartitionList {
   public ListNode partition(ListNode head, int x) {
-    ListNode prev = new ListNode(0 - 1);
-    prev.next = head;
-    ListNode cur = head;
-    ListNode pre = prev;
-    while (cur != null) {
+    ListNode before_head = new ListNode(0);
+    ListNode before = before_head;
+    ListNode after_head = new ListNode(0);
+    ListNode after = after_head;
 
-      cur = cur.next;
+    while (head != null) {
+      if (head.val < x) {
+        before.next = head;
+        before = before.next;
+      } else {
+        after.next = head;
+        after = after.next;
+      }
+      head = head.next;
     }
-    return prev.next;
+
+    after.next = null;
+    before.next = after_head.next;
+
+    return before_head.next;
   }
 }
