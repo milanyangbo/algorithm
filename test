@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T15:51:41.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="H0pQyuwh8ctJGupLE0hg" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T15:54:57.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="4eIDEmbslcPczmnXLv0o" version="14.9.3" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WLMgvtBl5KWH73BOrmQq-36" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="70" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WLMgvtBl5KWH73BOrmQq-38" value="堆内存区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WLMgvtBl5KWH73BOrmQq-39" value="静态内存区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLMgvtBl5KWH73BOrmQq-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="140" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
