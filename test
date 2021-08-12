@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T12:33:08.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="4p2lOAJmmwLpPwX6SBka" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T12:36:08.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="_IdBLcXiWz4sMbYVHxbQ" version="14.9.6" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
-    <mxGraphModel dx="3437" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,6 +140,9 @@
         <mxCell id="ERVm05_L5cV6iKkdgJUc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-44" target="ERVm05_L5cV6iKkdgJUc-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-44" target="ERVm05_L5cV6iKkdgJUc-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-44" value="是否敏感字段" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="651.72" y="2060" width="132.18" height="100" as="geometry" />
         </mxCell>
@@ -155,11 +158,29 @@
         <mxCell id="ERVm05_L5cV6iKkdgJUc-48" value="定义安全字段等级" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="649.9999999999999" y="2360" width="135.62" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-49" target="ERVm05_L5cV6iKkdgJUc-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-49" value="标注字段未加密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="649.9999999999999" y="2490" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-54" value="敏感识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="647.8199999999999" y="2630" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-56" target="ERVm05_L5cV6iKkdgJUc-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-56" value="是否数据库存有当前字段" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="349.44" y="2210" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-58" target="ERVm05_L5cV6iKkdgJUc-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-58" value="标注字段未加密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="347.7199999999999" y="2360" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-60" value="敏感识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="345.53" y="2500" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
