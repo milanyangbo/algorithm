@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T12:47:15.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="KexCzJj6J055rpKY54gC" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T12:50:43.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="64z3T6m5-zdVky2u7ML2" version="14.9.6" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
     <mxGraphModel dx="2946" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -199,65 +199,89 @@
         <mxCell id="ERVm05_L5cV6iKkdgJUc-63" value="敏感数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="530" y="610" width="143.75" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-64" target="ERVm05_L5cV6iKkdgJUc-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-64" value="字段名和描述识别" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="539.06" y="730" width="125.62" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-65" target="ERVm05_L5cV6iKkdgJUc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-65" value="是否有精确匹配" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="539.0600000000001" y="860" width="132.18" height="100" as="geometry" />
+          <mxGeometry x="535.7800000000001" y="860" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-66" target="ERVm05_L5cV6iKkdgJUc-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-66" value="精确匹配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="535.62" y="1020" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="534.07" y="1010" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-67" target="ERVm05_L5cV6iKkdgJUc-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-67" value="是否有模糊匹配" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="539.0600000000001" y="1270" width="132.18" height="100" as="geometry" />
+          <mxGeometry x="535.7900000000001" y="1280" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-68" target="ERVm05_L5cV6iKkdgJUc-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-68" value="计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="537.34" y="1160" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="534.07" y="1150" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-69" target="ERVm05_L5cV6iKkdgJUc-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-69" value="模糊匹配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="537.34" y="1420" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="534.06" y="1430" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-70" target="ERVm05_L5cV6iKkdgJUc-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-70" value="计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="539.0600000000001" y="1560" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="534.0600000000001" y="1570" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-71" value="是否权重大于零" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="554.3800000000001" y="1810" width="132.18" height="100" as="geometry" />
+          <mxGeometry x="535.78" y="1850" width="132.18" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-72" value="黑名单匹配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="552.6600000000001" y="1960" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="550.47" y="2020" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-73" value="计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="554.3800000000001" y="2100" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="552.19" y="2160" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-74" target="ERVm05_L5cV6iKkdgJUc-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-74" value="累加权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="539.0600000000001" y="1700" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="534.07" y="1700" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-75" value="累加权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="554.3800000000001" y="2240" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="552.19" y="2300" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-76" value="是否敏感字段" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="557.82" y="2400" width="132.18" height="100" as="geometry" />
+          <mxGeometry x="555.63" y="2460" width="132.18" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-78" target="ERVm05_L5cV6iKkdgJUc-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-78" value="定义安全字段编码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="554.38" y="2590" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="552.1899999999999" y="2650" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-80" target="ERVm05_L5cV6iKkdgJUc-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-80" value="定义安全字段等级" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="554.3699999999998" y="2730" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="552.1799999999997" y="2790" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-82" target="ERVm05_L5cV6iKkdgJUc-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-82" value="标注字段未加密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="554.3699999999998" y="2860" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="552.1799999999997" y="2920" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-83" value="敏感识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="552.1899999999999" y="3000" width="140" height="80" as="geometry" />
+          <mxGeometry x="549.9999999999999" y="3060" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
