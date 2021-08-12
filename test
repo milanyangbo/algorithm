@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T12:41:32.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7_W_pDVXGhMJJ1NirgL0" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T12:42:14.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="IP5gMY8vtgfjf7fq5gze" version="14.9.6" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
     <mxGraphModel dx="2946" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -202,6 +202,12 @@
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-68" value="计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="537.34" y="1160" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-69" value="模糊匹配" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="537.34" y="1420" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ERVm05_L5cV6iKkdgJUc-70" value="计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="539.0600000000001" y="1560" width="135.62" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
