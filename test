@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T16:47:28.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="5dop-lSMxYkmPJmJ6CSY" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-13T04:58:39.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="6ZZJfdWSLEaQ2biDkjle" version="14.9.6" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
-    <mxGraphModel dx="1730" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="ERVm05_L5cV6iKkdgJUc-20" value="1.正则匹配&lt;br style=&quot;font-size: 14px;&quot;&gt;2.计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1154.48" y="980" width="135.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-25" target="tXXepaVP2d9aq89coKf_-2">
+        <mxCell id="tXXepaVP2d9aq89coKf_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="ERVm05_L5cV6iKkdgJUc-25" target="tXXepaVP2d9aq89coKf_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-25" value="1.算法匹配&lt;br style=&quot;font-size: 14px;&quot;&gt;2.计算权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
@@ -90,7 +90,7 @@
         <mxCell id="ERVm05_L5cV6iKkdgJUc-28" value="是否有算法匹配" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1156.19" y="1100" width="132.18" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ERVm05_L5cV6iKkdgJUc-37" target="ERVm05_L5cV6iKkdgJUc-44">
+        <mxCell id="tXXepaVP2d9aq89coKf_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="ERVm05_L5cV6iKkdgJUc-37" target="ERVm05_L5cV6iKkdgJUc-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ERVm05_L5cV6iKkdgJUc-37" value="累加权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
@@ -250,17 +250,28 @@
         <mxCell id="mbEQmYstykZbM8so3-yg-6" value="&lt;br&gt;敏感识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1151.9699999999998" y="2180" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="tXXepaVP2d9aq89coKf_-2" target="tXXepaVP2d9aq89coKf_-6">
+        <mxCell id="tXXepaVP2d9aq89coKf_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="tXXepaVP2d9aq89coKf_-2" target="tXXepaVP2d9aq89coKf_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-2" value="是否有字段名描述识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="tXXepaVP2d9aq89coKf_-2" value="是否有字段名描述识别结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1156.35" y="1370" width="132.18" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="tXXepaVP2d9aq89coKf_-6" target="ERVm05_L5cV6iKkdgJUc-37">
+        <mxCell id="tXXepaVP2d9aq89coKf_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="tXXepaVP2d9aq89coKf_-6" target="ERVm05_L5cV6iKkdgJUc-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tXXepaVP2d9aq89coKf_-6" value="获取字段名描述识别权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="tXXepaVP2d9aq89coKf_-6" value="获取字段名描述识别权重" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1154.16" y="1510" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9TPFcYJdtxhPG3uPv_Jf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TPFcYJdtxhPG3uPv_Jf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-28.13000000000011" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TPFcYJdtxhPG3uPv_Jf-1" value="敏感数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#d5e8d4;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="610" width="143.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9TPFcYJdtxhPG3uPv_Jf-5" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88.12" y="730" width="118.12" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
