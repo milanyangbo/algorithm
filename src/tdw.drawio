@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T13:45:20.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="KyEVfIanlVVYYtHn_SXt" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T13:51:16.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="vhQ-k7gA5fa0IwKU2b4a" version="14.9.6" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="7837" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8099" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,19 +605,46 @@
           <mxGeometry x="-2646.09" y="720" width="132.18" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7L4xcxNV9Kzc51e2U8hK-3" value="&lt;span style=&quot;font-size: 13px&quot;&gt;创建迭代&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-2646.09" y="870" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="-2640" y="880" width="135.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7L4xcxNV9Kzc51e2U8hK-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;1.创建需求&lt;br&gt;2.确认开始完成时间&lt;br&gt;3.确认开发人&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-2647.81" y="1010" width="135.62" height="80" as="geometry" />
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;创建需求&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2649.5299999999997" y="1010" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7L4xcxNV9Kzc51e2U8hK-6" value="&lt;span style=&quot;font-size: 13px&quot;&gt;创建开发分支&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-2649.53" y="1145" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="-2647.8100000000004" y="1265" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7L4xcxNV9Kzc51e2U8hK-7" value="&lt;span style=&quot;font-size: 13px&quot;&gt;开发测试验收&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-2647.8100000000004" y="1290" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="-2647.8100000000004" y="1390" width="135.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7L4xcxNV9Kzc51e2U8hK-8" value="&lt;span style=&quot;font-size: 13px&quot;&gt;创建开发分支&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-2647.8100000000004" y="1420" width="135.62" height="80" as="geometry" />
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-8" value="&lt;span style=&quot;font-size: 13px&quot;&gt;1.CR&lt;br&gt;2.MR&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2646.0900000000006" y="1517.5" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-10" value="&lt;span style=&quot;font-size: 13px&quot;&gt;打包部署上线&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2646.0900000000006" y="1640" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-11" value="&lt;span style=&quot;font-size: 11px&quot;&gt;是否需求&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2894" y="730" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-12" value="&lt;span style=&quot;font-size: 11px&quot;&gt;是否bug&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2390" y="720" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-14" value="&lt;span style=&quot;font-size: 13px&quot;&gt;1.确认开始完成时间&lt;br&gt;2.确认开发人员&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2647.8100000000004" y="1130" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;创建缺陷&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2393.44" y="880" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-16" value="&lt;span style=&quot;font-size: 11px&quot;&gt;是否小需求&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2894" y="870" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-17" value="&lt;span style=&quot;font-size: 12px&quot;&gt;创建需求&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-2894" y="1010" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-18" value="&lt;span style=&quot;font-size: 11px&quot;&gt;需求是否可以再拆&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-3150" y="870" width="132.18" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7L4xcxNV9Kzc51e2U8hK-19" value="&lt;span style=&quot;font-size: 12px&quot;&gt;创建子需求&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-3151.7200000000003" y="1010" width="135.62" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
