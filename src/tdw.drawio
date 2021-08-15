@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T10:20:53.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="jnV_y0fSfEFBe3jy3Den" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T10:21:32.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="wIVCjAT1kZREaG_DPuvE" version="14.9.6" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="2557" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1543" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,20 +286,29 @@
         <mxCell id="TWLzpkab2mWhmV8aygny-83" value="结束循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=8;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-300" y="920" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="TWLzpkab2mWhmV8aygny-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TWLzpkab2mWhmV8aygny-87" target="TWLzpkab2mWhmV8aygny-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-87" value="外部需求交付" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="610" width="140" height="90" as="geometry" />
+          <mxGeometry x="-768.2800000000001" y="610" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TWLzpkab2mWhmV8aygny-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TWLzpkab2mWhmV8aygny-88" target="TWLzpkab2mWhmV8aygny-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-88" value="确认跟进人" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-765.62" y="740" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-89" value="1.确认交付清单&lt;br&gt;2.确认截止时间" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-765.62" y="990" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="-765.62" y="980" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-90" value="外部沟通" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-765.62" y="1110" width="135.62" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="TWLzpkab2mWhmV8aygny-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TWLzpkab2mWhmV8aygny-91" target="TWLzpkab2mWhmV8aygny-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-91" value="内部沟通" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-762.18" y="870" width="135.62" height="80" as="geometry" />
+          <mxGeometry x="-765.62" y="860" width="135.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TWLzpkab2mWhmV8aygny-92" value="是否相互达成一致" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-766.09" y="1230" width="132.18" height="100" as="geometry" />
