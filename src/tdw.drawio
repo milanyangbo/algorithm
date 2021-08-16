@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T07:21:50.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="gwefwVjPAN_gPq0b6T8c" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:26:03.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="SbZdMnw-dMBHWpId1mri" version="14.9.6" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="10740" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,6 +740,12 @@
         </mxCell>
         <mxCell id="uLTzXGGMs_2aWuKUiLu6-3" value="&lt;font style=&quot;font-size: 13px&quot;&gt;合理的验收标准有利于避免返工&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-4340" y="850" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SaaYFpHfDAOrUPcQciJd-3" value="具体的数据格式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-5130" y="1410" width="135.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SaaYFpHfDAOrUPcQciJd-4" value="数据量和流量有多大" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-4940" y="1417.5" width="135.62" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
