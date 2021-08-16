@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T02:15:19.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="U40v_Q8mYLBmM_jO-WGl" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-16T02:22:12.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pLhMt7WciBYPme10XMhB" version="14.9.6" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="8678" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -732,13 +732,13 @@
         <mxCell id="7L4xcxNV9Kzc51e2U8hK-47" value="&lt;font style=&quot;font-size: 13px&quot;&gt;开发周期七天以内完成&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-2481" y="1090" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uLTzXGGMs_2aWuKUiLu6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="uLTzXGGMs_2aWuKUiLu6-1" target="TWLzpkab2mWhmV8aygny-182">
+        <mxCell id="uLTzXGGMs_2aWuKUiLu6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="uLTzXGGMs_2aWuKUiLu6-1" target="TWLzpkab2mWhmV8aygny-182" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uLTzXGGMs_2aWuKUiLu6-1" value="定义验收标准" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="uLTzXGGMs_2aWuKUiLu6-1" value="1.定义测试用例 输入样本，输出结果&lt;br&gt;2.定义验收标准&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=0;shadow=1;labelBorderColor=none;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-4510" y="880" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uLTzXGGMs_2aWuKUiLu6-3" value="&lt;font style=&quot;font-size: 13px&quot;&gt;合理的验收标准有利于避免返工&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="uLTzXGGMs_2aWuKUiLu6-3" value="&lt;font style=&quot;font-size: 13px&quot;&gt;合理的验收标准有利于避免返工&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-4340" y="850" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
