@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T11:14:27.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="DzqBaF7gMHJfeU6nPXLq" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T14:51:19.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="rnWXqnaKe46deISpeVHr" version="15.5.9" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
-    <mxGraphModel dx="2032" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2692" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,6 +351,27 @@
         </mxCell>
         <mxCell id="seFLCzAIiJKgSN3uQJW9-9" value="Application" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-25" value="&lt;br&gt;&lt;br&gt;Database" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;sketch=0;shadow=1;labelBorderColor=none;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1730" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;" edge="1" parent="1" source="seFLCzAIiJKgSN3uQJW9-30" target="seFLCzAIiJKgSN3uQJW9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-30" value="DBDriver" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1635" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="seFLCzAIiJKgSN3uQJW9-36" target="seFLCzAIiJKgSN3uQJW9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-36" value="JDBC/Database Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1500" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="seFLCzAIiJKgSN3uQJW9-38" target="seFLCzAIiJKgSN3uQJW9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seFLCzAIiJKgSN3uQJW9-38" value="Application" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="1400" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
