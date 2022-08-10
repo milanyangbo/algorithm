@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T14:17:40.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="L33Sir200ZhAfbr5RkCr" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T02:25:50.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ax2sXOZZZpI8K3vOL_wA" version="20.2.3" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
     <mxGraphModel dx="2061" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
           <mxGeometry x="-30" y="1505" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eB-wTk3kzLnnyvCch8hH-10" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="1500" width="40" height="30" as="geometry" />
+          <mxGeometry x="-80" y="1505" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eB-wTk3kzLnnyvCch8hH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eB-wTk3kzLnnyvCch8hH-11" target="eB-wTk3kzLnnyvCch8hH-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -391,14 +391,16 @@
         <mxCell id="eB-wTk3kzLnnyvCch8hH-13" value="m:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-180" y="1580" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eB-wTk3kzLnnyvCch8hH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eB-wTk3kzLnnyvCch8hH-16" target="eB-wTk3kzLnnyvCch8hH-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eB-wTk3kzLnnyvCch8hH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eB-wTk3kzLnnyvCch8hH-16" target="eB-wTk3kzLnnyvCch8hH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="eB-wTk3kzLnnyvCch8hH-16" value="risk_type(风险类别)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="1630" width="120" height="60" as="geometry" />
+        <mxCell id="eB-wTk3kzLnnyvCch8hH-16" value="label(标签)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eB-wTk3kzLnnyvCch8hH-19" value="1:m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="1620" width="40" height="30" as="geometry" />
+          <mxGeometry x="-90" y="1360" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eB-wTk3kzLnnyvCch8hH-20" value="risk_flow(风险运营流程)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="1754" width="120" height="60" as="geometry" />
