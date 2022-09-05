@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T04:15:23.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="K5mwWl8deffQ17xFFYpb" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:09:29.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hSUVU_rj1OlH_HqGJrd7" version="20.2.8" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
     <mxGraphModel dx="2893" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,44 +590,72 @@
         <mxCell id="aCjAz94OPcluFs1C5GKx-45" value="模型上线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="2360.5" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-1" target="r32HH0IGpNGIpBtIWaaB-3">
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r32HH0IGpNGIpBtIWaaB-1" target="r32HH0IGpNGIpBtIWaaB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-1" value="dayuzhishui-kms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="861" y="1270" width="120" height="60" as="geometry" />
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-1" value="大禹治水密钥管理系统" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="861" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-2" target="r32HH0IGpNGIpBtIWaaB-6">
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="r32HH0IGpNGIpBtIWaaB-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="686" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-2" value="大禹治水透明加密插件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="626" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-2" value="dayuzhishui-加密插件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="626" y="1570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-7">
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-2">
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-3" target="r32HH0IGpNGIpBtIWaaB-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-3" value="大禹治水sdk&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="861" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-3" value="dayuzhishui-kms-sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="861" y="1400" width="120" height="60" as="geometry" />
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="r32HH0IGpNGIpBtIWaaB-4" target="2EmnDHswDBrjs70Din4r-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="1630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r32HH0IGpNGIpBtIWaaB-4" target="r32HH0IGpNGIpBtIWaaB-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-4" value="大禹治水离线加密udf" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-4" value="dayuzhishui-加密udf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1500" width="120" height="60" as="geometry" />
+        <mxCell id="r32HH0IGpNGIpBtIWaaB-7" value="redis/ckv/es/etc" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="866.5" y="1640" width="109" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-6" value="mysql" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="656" y="1680" width="60" height="60" as="geometry" />
+        <mxCell id="2EmnDHswDBrjs70Din4r-1" value="分发密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-7" value="redis" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="891" y="1630" width="60" height="60" as="geometry" />
+        <mxCell id="2EmnDHswDBrjs70Din4r-2" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="936" y="1580" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r32HH0IGpNGIpBtIWaaB-8" value="thive" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1680" width="60" height="60" as="geometry" />
+        <mxCell id="2EmnDHswDBrjs70Din4r-3" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1580" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-5" value="mysql/pg/etc" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="1630" width="109" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-6" value="hive/thive" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075.5" y="1630" width="109" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-7" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="709" y="1580" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-8" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-9" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-10" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="943" y="1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EmnDHswDBrjs70Din4r-11" value="&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sdk功能包含：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.获取远程密钥&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.ase256加密算法&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="796" y="1480" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
