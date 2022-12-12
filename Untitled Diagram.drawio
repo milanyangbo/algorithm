@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:09:29.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hSUVU_rj1OlH_HqGJrd7" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T02:52:52.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pzxxmeCE553QVHtjjnKk" version="20.4.0" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2893" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3569" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -627,35 +627,77 @@
         <mxCell id="r32HH0IGpNGIpBtIWaaB-7" value="redis/ckv/es/etc" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="866.5" y="1640" width="109" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-1" value="分发密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-1" value="分发密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="930" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-2" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-2" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="936" y="1580" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-3" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-3" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1580" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-5" value="mysql/pg/etc" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-5" value="mysql/pg/etc" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="626" y="1630" width="109" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-6" value="hive/thive" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-6" value="hive/thive" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1075.5" y="1630" width="109" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-7" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-7" value="加解密数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="709" y="1580" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-8" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-8" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="731" y="1410" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-9" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-9" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1410" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-10" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-10" value="获取密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="943" y="1520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2EmnDHswDBrjs70Din4r-11" value="&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sdk功能包含：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.获取远程密钥&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.ase256加密算法&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2EmnDHswDBrjs70Din4r-11" value="&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sdk功能包含：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.获取远程密钥&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.ase256加密算法&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="796" y="1480" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-2" target="2jazyfPbpP1gfKeVxcpK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-2" value="application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1040" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-4" target="2jazyfPbpP1gfKeVxcpK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-4" value="ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-6" target="2jazyfPbpP1gfKeVxcpK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-6" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="1275" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-8" target="2jazyfPbpP1gfKeVxcpK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-8" value="AOP DriverIntercrepter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="1360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-10" target="2jazyfPbpP1gfKeVxcpK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-10" value="DB Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1670" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-11" value="&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1750" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-12" value="发送SQL&lt;br&gt;&lt;br&gt;mobile = &#39;1234567&#39;&lt;br&gt;&lt;br&gt;INSERT INTO account(mobile) VALUES (?)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1805" y="1100" width="265" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-13" value="重写SQL&lt;br&gt;&lt;br&gt;mobile = &#39;1234567&#39;&lt;br&gt;mobile_encrypted = &#39;&#39;&lt;br&gt;&lt;br&gt;INSERT INTO account(mobile, mobile_encrypted) VALUES (?,?)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1420" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-20" value="加密SQL&lt;br&gt;&lt;br&gt;mobile = &#39;1234567&#39;&lt;br&gt;mobile_encrypted = encrypt(mobile,KMS Key)&lt;br&gt;&lt;br&gt;INSERT INTO account(mobile, mobile_encrypted) VALUES (?,?)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1570" width="380" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
