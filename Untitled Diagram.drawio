@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T03:15:16.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ySYXfoD9dif0DFYFlZ-s" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T03:25:20.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="RuUvjoPbeO9ExMc0CrBM" version="20.4.0" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2160" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3123" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,7 +673,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-6" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="1265" width="240" height="40" as="geometry" />
+          <mxGeometry x="1645" y="1265" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-8" target="2jazyfPbpP1gfKeVxcpK-10">
           <mxGeometry relative="1" as="geometry" />
@@ -702,17 +702,11 @@
         <mxCell id="2jazyfPbpP1gfKeVxcpK-37" value="application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2245" y="1040" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-39" target="2jazyfPbpP1gfKeVxcpK-41">
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-39" target="2jazyfPbpP1gfKeVxcpK-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-39" value="ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2245" y="1180" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-41" target="2jazyfPbpP1gfKeVxcpK-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-41" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1265" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-43" target="2jazyfPbpP1gfKeVxcpK-45">
           <mxGeometry relative="1" as="geometry" />
@@ -741,17 +735,11 @@
         <mxCell id="2jazyfPbpP1gfKeVxcpK-50" value="application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2815" y="1040" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-52" target="2jazyfPbpP1gfKeVxcpK-54">
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-52" target="2jazyfPbpP1gfKeVxcpK-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-52" value="ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2815" y="1180" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-54" target="2jazyfPbpP1gfKeVxcpK-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2jazyfPbpP1gfKeVxcpK-54" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="1265" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-56" target="2jazyfPbpP1gfKeVxcpK-58">
           <mxGeometry relative="1" as="geometry" />
@@ -773,6 +761,27 @@
         </mxCell>
         <mxCell id="2jazyfPbpP1gfKeVxcpK-61" value="重写SQL&lt;br&gt;&lt;br&gt;INSERT INTO account(mobile_encrypted)VALUES (?)&lt;br&gt;UPDATE account SET address_encrypted = ? WHERE mobile_encrypted = ?&lt;br&gt;SELECT address_encrypted&amp;nbsp;FROM account WHERE mobile_encrypted&amp;nbsp;= ?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2930" y="1410" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-63" target="2jazyfPbpP1gfKeVxcpK-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-63" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2205" y="1265" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jazyfPbpP1gfKeVxcpK-66" target="2jazyfPbpP1gfKeVxcpK-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-66" value="DB Driver Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="1265" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-70" value="1. 明文和密文双写&lt;br&gt;2. 查询明文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="1245" width="315" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-71" value="1. 清洗存量数据&lt;br&gt;2. 明文和密文双写&lt;br&gt;3. 查询密文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="1245" width="315" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2jazyfPbpP1gfKeVxcpK-72" value="1. 删除明文&lt;br&gt;2. zhi xei&lt;br&gt;3. 查询密文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="1245" width="315" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
