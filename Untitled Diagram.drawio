@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:39:04.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_1jhtTF6JCc_X5uKfqM9" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T12:40:05.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vRNV06qzAzIAVjEUP6Wd" version="20.7.2" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
     <mxGraphModel dx="4598" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1936,7 +1936,7 @@
           <mxGeometry x="6736.79" y="2588.4499999999994" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-176" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;painc recovery&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6906.79" y="2668.4500000000003" width="130" height="40" as="geometry" />
+          <mxGeometry x="6906.79" y="2658.9500000000003" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-178" value="异地部署" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="7076.79" y="2658.9499999999994" width="130" height="40" as="geometry" />
@@ -1964,6 +1964,9 @@
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-194" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 20px;&quot;&gt;FIlter 机制&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#A50040;strokeWidth=1;fontSize=15;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="5880" y="2439.5" width="643" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7NHNdKDJ145r-F_XvFeA-196" value="全局限流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6062.34" y="2686.9500000000003" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
