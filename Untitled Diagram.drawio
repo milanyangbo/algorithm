@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T11:27:23.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="dFjhL09zZ9AIlnny6C4t" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T11:30:24.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="FS6Au-awGecEypxo6VwY" version="20.7.2" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2207" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1907" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1808,6 +1808,9 @@
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-53" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;本地文件&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="6265.32" y="2042.22" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7NHNdKDJ145r-F_XvFeA-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;KMS SDK 容灾&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="5377.99" y="2007.5" width="154" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
