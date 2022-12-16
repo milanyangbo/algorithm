@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:40:05.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vRNV06qzAzIAVjEUP6Wd" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T12:40:50.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="guqZELI3b1Itnsx7cmL5" version="20.7.2" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
     <mxGraphModel dx="4598" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1954,19 +1954,19 @@
           <mxGeometry x="7076.79" y="2907.5799999999995" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-184" value="接口维度限流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6236.79" y="2686.95" width="130" height="40" as="geometry" />
+          <mxGeometry x="6236.79" y="2698.95" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-186" value="全局限流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6236.79" y="2755.2900000000004" width="130" height="40" as="geometry" />
+          <mxGeometry x="6236.79" y="2779.9200000000005" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-187" value="审计日志" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="7076.79" y="2971.109999999999" width="130" height="40" as="geometry" />
+          <mxGeometry x="7076.79" y="2979.999999999999" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-194" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 20px;&quot;&gt;FIlter 机制&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#A50040;strokeWidth=1;fontSize=15;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="5880" y="2439.5" width="643" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7NHNdKDJ145r-F_XvFeA-196" value="全局限流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6062.34" y="2686.9500000000003" width="130" height="40" as="geometry" />
+        <mxCell id="7NHNdKDJ145r-F_XvFeA-196" value="TC3-HMAC-SHA256" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFFFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6051.17" y="2692.45" width="142.34" height="53.05" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
