@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T11:38:03.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="P5E-eRzwsF5YQ3ebGEgO" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T11:38:30.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lT2KEI0yMoDji6PPhEGG" version="20.7.4" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10548" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9701" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3688,7 +3688,7 @@
         <mxCell id="U4DKyj77NWSZZp1MTHw6-649" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="U4DKyj77NWSZZp1MTHw6-645" target="a38CWwPaNOybyDV56iLI-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U4DKyj77NWSZZp1MTHw6-661" value="注册请求上下文" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="U4DKyj77NWSZZp1MTHw6-649">
+        <mxCell id="U4DKyj77NWSZZp1MTHw6-661" value="注册当前请求任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="U4DKyj77NWSZZp1MTHw6-649">
           <mxGeometry x="-0.0798" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
