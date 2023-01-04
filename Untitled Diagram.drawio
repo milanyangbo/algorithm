@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T06:39:19.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gEMulIGiEQAGIPon7N4X" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T06:48:23.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SKR0s_cdIArnSggjczZx" version="20.7.4" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="4376" dy="3298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4967" dy="3652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1933,22 +1933,16 @@
         <mxCell id="7NHNdKDJ145r-F_XvFeA-143" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;是否有缓存&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="6870" y="2634.2099999999996" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7NHNdKDJ145r-F_XvFeA-200" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;elbow=vertical;" parent="1" source="7NHNdKDJ145r-F_XvFeA-145" edge="1">
+        <mxCell id="A3ftx6tLcrt9LuIbiHFI-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;elbow=vertical;" edge="1" parent="1" source="7NHNdKDJ145r-F_XvFeA-145" target="7NHNdKDJ145r-F_XvFeA-143">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7125.030000000001" y="2571.2" />
-              <mxPoint x="6950.030000000001" y="2571.2" />
+              <mxPoint x="7118" y="2560" />
+              <mxPoint x="6940" y="2560" />
             </Array>
-            <mxPoint x="6949.9972727272725" y="2640.5299999999997" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7NHNdKDJ145r-F_XvFeA-201" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;读取缓存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=#000000;" parent="7NHNdKDJ145r-F_XvFeA-200" vertex="1" connectable="0">
-          <mxGeometry x="-0.0352" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-145" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;本地缓存&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="7066.580000000001" y="2465.5" width="116.79" height="75.4" as="geometry" />
+          <mxGeometry x="7059.980000000001" y="2450" width="116.79" height="75.4" as="geometry" />
         </mxCell>
         <mxCell id="7NHNdKDJ145r-F_XvFeA-149" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;elbow=vertical;" parent="1" source="7NHNdKDJ145r-F_XvFeA-148" target="7NHNdKDJ145r-F_XvFeA-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2297,6 +2291,9 @@
         </mxCell>
         <mxCell id="A3ftx6tLcrt9LuIbiHFI-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;重试是否成功&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="6809.999999999999" y="1858.4999999999998" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="A3ftx6tLcrt9LuIbiHFI-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;读取缓存&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="6959.98" y="2525.4" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
