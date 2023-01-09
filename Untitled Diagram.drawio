@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T10:10:00.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="rgu1xUTx6eEPYijQu2Zy" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T10:11:26.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="TI2BCZ7CH3Km2Kv7WoPc" version="20.8.3" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="4376" dy="3246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3932" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2280,8 +2280,8 @@
         <mxCell id="A3ftx6tLcrt9LuIbiHFI-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;读取缓存&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="6776.98" y="2524.75" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MKdi5m57UC7m_wqxzc2r-1" value="&lt;font size=&quot;1&quot; color=&quot;#ffb570&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;注：考虑到容器化部署，会新增将远程密钥写入redis的容灾功能&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="6570" y="2267.85" width="530" height="40" as="geometry" />
+        <mxCell id="MKdi5m57UC7m_wqxzc2r-1" value="&lt;font size=&quot;1&quot; color=&quot;#ffb570&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;注：考虑到容器化部署情况，会新增将远程密钥写入redis的容灾功能&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6570" y="2261.89" width="630" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
