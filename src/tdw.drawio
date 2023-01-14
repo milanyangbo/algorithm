@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T13:57:56.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qhYHTi0rA5H6mMVQQTqQ" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T13:58:36.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DSdaUO38E91_FSOx8qTO" version="20.8.5" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12202" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5081,50 +5081,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-77" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;SQL解析比较耗时&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-441.02" y="8506.5" width="251.02" height="60" as="geometry" />
+          <mxGeometry x="-435.21999999999997" y="8567.62" width="251.02" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-101" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-79" target="n1MoPREq5BpnFtln-Qmg-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-79" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;双重检测 + LocalCache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-126.81" y="8505.9" width="290.68" height="60" as="geometry" />
+          <mxGeometry x="-121.01" y="8567.02" width="290.68" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-99" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-81" target="n1MoPREq5BpnFtln-Qmg-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-81" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;并发时重复解析SQL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-437.68" y="8242.43" width="260.12" height="60" as="geometry" />
+          <mxGeometry x="-431.88" y="8303.550000000001" width="260.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-103" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-83" target="n1MoPREq5BpnFtln-Qmg-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-83" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;加锁进行互斥&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-117.56" y="8242.43" width="180" height="60" as="geometry" />
+          <mxGeometry x="-111.76" y="8303.550000000001" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-98" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-85" target="n1MoPREq5BpnFtln-Qmg-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-85" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;抢锁导致性能问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="121.97" y="8242.43" width="240.47" height="60" as="geometry" />
+          <mxGeometry x="127.77" y="8303.550000000001" width="240.47" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-110" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" target="n1MoPREq5BpnFtln-Qmg-107">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="582.44" y="8272.37" as="sourcePoint" />
+            <mxPoint x="588.24" y="8333.490000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-112" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-87" target="n1MoPREq5BpnFtln-Qmg-106">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="596.82" y="8272.475263157896" as="sourcePoint" />
+            <mxPoint x="602.62" y="8333.595263157897" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-87" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;减少锁粒度&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="413.28" y="8242.43" width="169.16" height="60" as="geometry" />
+          <mxGeometry x="419.08" y="8303.550000000001" width="169.16" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-102" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-89" target="n1MoPREq5BpnFtln-Qmg-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-89" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;过多缓存导致内存问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="218.07999999999998" y="8505.9" width="283.93" height="60" as="geometry" />
+          <mxGeometry x="223.88" y="8567.02" width="283.93" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-96" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-92" target="n1MoPREq5BpnFtln-Qmg-93">
           <mxGeometry relative="1" as="geometry" />
@@ -5133,43 +5133,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-92" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;优化缓存策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="567.6400000000001" y="8505.94" width="215.79" height="60" as="geometry" />
+          <mxGeometry x="573.44" y="8567.060000000001" width="215.79" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-93" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略1：参数化SQL 永久缓存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="898.19" y="8420.310000000001" width="350" height="60" as="geometry" />
+          <mxGeometry x="903.99" y="8481.430000000002" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL Lua淘汰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="898.1900000000003" y="8574.51" width="350" height="60" as="geometry" />
+          <mxGeometry x="903.9900000000002" y="8635.630000000001" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-104" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 缓存优化演进思路&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-547.19" y="8434.51" width="360" height="60" as="geometry" />
+          <mxGeometry x="-541.3900000000001" y="8495.630000000001" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-105" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;锁优化演进思路&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-441.0199999999999" y="8178.88" width="230" height="60" as="geometry" />
+          <mxGeometry x="-435.2199999999999" y="8240" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-113" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-106" target="n1MoPREq5BpnFtln-Qmg-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-106" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;SQL&lt;/span&gt;&lt;span style=&quot;font-size: 25px;&quot;&gt;粒度的锁&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="662.0000000000001" y="8149.999999999999" width="178.91" height="60" as="geometry" />
+          <mxGeometry x="667.8000000000001" y="8211.119999999999" width="178.91" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-111" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-107" target="n1MoPREq5BpnFtln-Qmg-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-107" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;分段锁方式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="662" y="8331.000000000002" width="180.44" height="60" as="geometry" />
+          <mxGeometry x="667.8" y="8392.120000000003" width="180.44" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-108" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;存在热点Key问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="886.2" y="8150.000000000001" width="206.24" height="60" as="geometry" />
+          <mxGeometry x="892" y="8211.12" width="206.24" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-109" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;请求均匀分散&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="886.2" y="8331.000000000002" width="206.24" height="60" as="geometry" />
+          <mxGeometry x="892" y="8392.120000000003" width="206.24" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-122" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essentials-74/24/040_-_Tick-128.png;fontSize=25;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="596.82" y="8302.43" width="50" height="50" as="geometry" />
+          <mxGeometry x="602.62" y="8363.550000000001" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-124" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essentials-72/24/039_-_Cross-128.png;fontSize=25;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="596.82" y="8207.429999999998" width="50" height="50" as="geometry" />
+          <mxGeometry x="602.62" y="8268.55" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
