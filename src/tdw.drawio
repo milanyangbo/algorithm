@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T07:32:44.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ereFqyf4KYKYn8pm-MCj" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T07:54:06.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jaeha5hKUn49ku0SYrme" version="20.8.3" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10871" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11167" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4830,53 +4830,56 @@
         <mxCell id="c7xil2m0GuiV4PBF8jPc-439" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;问题现状&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="-3697" y="8520" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-440" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1212.04" y="7865.3" width="329" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-441" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;1. 访问到已删除表&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1174.29" y="7894.18" width="254.5" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-442" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;2. 计算资源不够&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1174.29" y="7970.3" width="254.5" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-443" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;3. SuperSQL Bug&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1174.29" y="8046.93" width="254.5" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-444" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;CPU100%原因&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-1160.04" y="7794.67" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-445" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-812.04" y="7863.93" width="780" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-446" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-447" target="c7xil2m0GuiV4PBF8jPc-454">
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-464" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-441" target="c7xil2m0GuiV4PBF8jPc-456">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-447" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;1. 检测表是否删除&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-779.3299999999999" y="7892.81" width="254.5" height="55" as="geometry" />
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-441" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;正则计算量大&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1174.21" y="7976.530000000001" width="194.29" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-448" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-449" target="c7xil2m0GuiV4PBF8jPc-454">
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-444" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;CPU100%处理思路&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-1187.01" y="7840" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-465" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-456" target="c7xil2m0GuiV4PBF8jPc-457">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-449" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;2. 增加计算资源&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-779.3299999999999" y="7968.93" width="254.5" height="55" as="geometry" />
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-456" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;优化正则表达式&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-927.75" y="7976.53" width="218.5" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-450" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-451" target="c7xil2m0GuiV4PBF8jPc-454">
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-466" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-457" target="c7xil2m0GuiV4PBF8jPc-459">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-451" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;3. 找天穹解决BUG&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-779.3299999999999" y="8045.56" width="254.5" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-452" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;解决方案&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-776.04" y="7793.3" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-453" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-454" target="c7xil2m0GuiV4PBF8jPc-455">
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-468" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-457" target="c7xil2m0GuiV4PBF8jPc-461">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-454" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;兜底策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-456.54" y="7968.93" width="155.84" height="55" as="geometry" />
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-457" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;扩容无法解决单节点计算量&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-642.01" y="7976.53" width="338" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="c7xil2m0GuiV4PBF8jPc-455" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;时间轮&lt;/font&gt;&lt;/b&gt;异步监控&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-262.04" y="7968.93" width="200" height="55" as="geometry" />
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-469" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-459" target="c7xil2m0GuiV4PBF8jPc-462">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-459" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;增加单节点CPU核心数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-230.95" y="7915" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-470" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;curved=1;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-461" target="c7xil2m0GuiV4PBF8jPc-462">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-461" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;借鉴MapReduce&lt;br&gt;CPU多核并行计算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-230.95000000000002" y="8035" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-471" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeWidth=2;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="c7xil2m0GuiV4PBF8jPc-462" target="c7xil2m0GuiV4PBF8jPc-463">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-462" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;瞬间流量依然会导致CPU100%&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="114.71000000000001" y="7980" width="275.74" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-463" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;信号量限流&lt;br&gt;超过请求量处于阻塞状态&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="439.28" y="7980" width="311.81" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-472" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ffce9f&quot;&gt;线上依然经常CPU100%&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-643.01" y="7898.07" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c7xil2m0GuiV4PBF8jPc-473" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#97d077&quot;&gt;提升单节点计算效率&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-235.95" y="7836.94" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
