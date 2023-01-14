@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T03:07:49.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hz-7jy7yyVWWipl5dmeJ" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T03:38:21.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="f_UzzvMud_oqseIkVwmW" version="20.8.3" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="4376" dy="3298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2425,6 +2425,36 @@
         </mxCell>
         <mxCell id="GvUnu2bfK3uKi9EYIh7g-61" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;时间轮&lt;/font&gt;&lt;/b&gt;异步监控&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="470" y="4165.63" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="4570.88" width="310" height="109.12" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-63" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;减少检测任务CPU开销&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-471.25" y="4599.76" width="271.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-66" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;使用时间轮原因&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="4467" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="4525.63" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-71" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;1.轮询所有任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-116.75" y="4550.39" width="216.75" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-72" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;考虑方案&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-77.5" y="4465.63" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-73" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;2.延迟队列&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-119.85" y="4630.63" width="219.85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="168.75" y="4569.52" width="322.5" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-79" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;o(1)时间复杂度计算开销&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="192" y="4594.280000000001" width="279.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GvUnu2bfK3uKi9EYIh7g-81" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;时间轮好处&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=30;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="222.85999999999999" y="4474.37" width="174.28" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
