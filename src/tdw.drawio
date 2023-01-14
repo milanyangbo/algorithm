@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T14:47:03.361Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="I1rwbL-qbtdAE0DRJim3" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T14:50:23.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Cmi7RLvXerng932tVA-l" version="20.8.5" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10871" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4885,7 +4885,7 @@
         <mxCell id="n1MoPREq5BpnFtln-Qmg-93" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略1：参数化SQL 永久缓存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="902.67" y="8460.050000000003" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL Lua淘汰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL LRU淘汰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="900.8600000000002" y="8572.54" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-104" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 缓存优化演进思路&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
@@ -4919,7 +4919,7 @@
           <mxGeometry x="602.62" y="8268.55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-132" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;执行SQL&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-6191.729999999998" y="8372.22" width="167.87" height="70" as="geometry" />
+          <mxGeometry x="-6028.299999999997" y="8372.22" width="167.87" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-147" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=25;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-135" target="n1MoPREq5BpnFtln-Qmg-145">
           <mxGeometry relative="1" as="geometry" />
@@ -4931,7 +4931,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-136" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;解锁&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-6382.8099999999995" y="8372.220000000001" width="126.57" height="70" as="geometry" />
+          <mxGeometry x="-6219.379999999999" y="8372.220000000001" width="126.57" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-149" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=25;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-138" target="n1MoPREq5BpnFtln-Qmg-139">
           <mxGeometry relative="1" as="geometry" />
@@ -4963,11 +4963,20 @@
         <mxCell id="n1MoPREq5BpnFtln-Qmg-145" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;检查&lt;br&gt;本地缓存&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-7192.92" y="8337.22" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="n1MoPREq5BpnFtln-Qmg-151" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=25;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-146" target="n1MoPREq5BpnFtln-Qmg-136">
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-158" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=25;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-146" target="n1MoPREq5BpnFtln-Qmg-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n1MoPREq5BpnFtln-Qmg-146" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;检查&lt;br&gt;本地缓存&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-146" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;检查是否&lt;br&gt;参数化SQL&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-6582.63" y="8337.22" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-159" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=25;fontColor=#000000;" edge="1" parent="1" source="n1MoPREq5BpnFtln-Qmg-155" target="n1MoPREq5BpnFtln-Qmg-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-155" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;永久缓存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-6385.099999999999" y="8372.220000000001" width="126.57" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-156" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;LRU 淘汰&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-6386.57" y="8248.550000000001" width="126.57" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
