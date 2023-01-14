@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T13:22:39.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bo-vvrxxrBxX9BWYFfp0" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T13:26:30.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="iBQ-0keE3HShoOhYpzQk" version="20.8.5" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10871" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11167" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5125,10 +5125,10 @@
         <mxCell id="n1MoPREq5BpnFtln-Qmg-92" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;解决：优化缓存策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="814.2100000000002" y="8365.800000000001" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n1MoPREq5BpnFtln-Qmg-93" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略1:参数化SQL &lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;永久缓存&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-93" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略1：参数化SQL 永久缓存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1250" y="8278.86" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL &lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Lua淘汰&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL Lua淘汰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1250.0000000000002" y="8433.06" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-104" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;缓存问题&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
