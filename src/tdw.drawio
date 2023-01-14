@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T16:59:00.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_rHNJYaJWYyTO7zQ4hMX" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T17:00:01.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hBE5RGHGKhx0ynG6UW1g" version="20.8.5" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="10558" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4880,13 +4880,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-92" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;优化缓存策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="576.11" y="8520.090000000002" width="215.79" height="60" as="geometry" />
+          <mxGeometry x="576.11" y="8520.09" width="193.89" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-93" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略1：参数化SQL 永久缓存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="902.67" y="8460.050000000003" width="350" height="60" as="geometry" />
+          <mxGeometry x="877.56" y="8460.050000000003" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-94" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;策略2：非参数化SQL LRU淘汰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="900.8600000000002" y="8572.54" width="350" height="60" as="geometry" />
+          <mxGeometry x="875.7500000000002" y="8572.54" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n1MoPREq5BpnFtln-Qmg-104" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 缓存优化演进思路&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="-541.5300000000001" y="8460.650000000001" width="360" height="60" as="geometry" />
