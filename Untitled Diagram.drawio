@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T08:45:52.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CcdvClyzv0BVtSSLBpHc" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T10:11:47.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_BwGeIMs0tX-o8HK0FMB" version="20.8.5" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2483" dy="2157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3587" dy="2816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1613,7 +1613,7 @@
           <mxGeometry x="528.5" y="4976.5" width="284" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-11" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;获取远程密钥&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="812.5" y="5030" width="140" height="40" as="geometry" />
+          <mxGeometry x="820" y="5030" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;KMS SDK功能包含：&lt;br&gt;1.获取远程密钥&lt;br&gt;2.aescbc256加密算法&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1245" y="5030" width="200" height="80" as="geometry" />
@@ -1666,8 +1666,8 @@
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;elbow=vertical;" edge="1" parent="1" source="nNbmHaVBcwYtbBB9qG3y-27" target="nNbmHaVBcwYtbBB9qG3y-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1090" y="5260" />
-              <mxPoint x="1370" y="5260" />
+              <mxPoint x="1090" y="5270" />
+              <mxPoint x="1370" y="5270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2228,6 +2228,21 @@
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;redis命令：SET dayuzhishui:&lt;/font&gt;hash(keyAlias, salt)&amp;nbsp; aes256(key, salt)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="7226.560000000001" y="2379.2200000000003" width="630" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Is5QtLiEdIjazp-x-Aj2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="876.02" y="4620.39" width="435.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Is5QtLiEdIjazp-x-Aj2-15" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;1.在线MYSQL使用加密插件加密&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="899.27" y="4642.150000000001" width="382.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Is5QtLiEdIjazp-x-Aj2-16" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;使用场景&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="871.52" y="4550.39" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Is5QtLiEdIjazp-x-Aj2-17" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;2.Redis使用KMS SDK加密&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="898.8499999999999" y="4710.39" width="385.35" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Is5QtLiEdIjazp-x-Aj2-19" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&amp;nbsp; 3.天穹大数据使用UDF函数加密&amp;nbsp; &amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="899.2699999999999" y="4780.39" width="385.35" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
