@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T14:44:35.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="l1kK8f7Joyc8sVa4C5g8" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T14:52:08.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cH7ul_dzMWeVafTNnnS8" version="20.8.5" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="3932" dy="3022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1581,7 +1581,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="2385" y="4942.5" width="260" height="176.5" as="geometry" />
+          <mxGeometry x="2357.5" y="4942.5" width="260" height="176.5" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fontColor=#EA6B66;elbow=vertical;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-2" target="nNbmHaVBcwYtbBB9qG3y-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1595,67 +1595,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-2" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;业务代码&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="2411.95" y="4962.5" width="210" height="50" as="geometry" />
+          <mxGeometry x="2384.45" y="4962.5" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;大禹治水KMS SDK&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#FFFFFF;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2421.95" y="5052.5" width="190" height="50" as="geometry" />
+          <mxGeometry x="2394.45" y="5052.5" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-4" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;业务服务程序&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="2385" y="4892.5" width="260" height="50" as="geometry" />
+          <mxGeometry x="2357.5" y="4892.5" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="5029" width="284" height="90" as="geometry" />
+          <mxGeometry x="1902.5" y="5029" width="284" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-7" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ffffff&quot;&gt;大禹治水KMS Auth&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050EF;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1972" y="5049" width="204" height="50" as="geometry" />
+          <mxGeometry x="1944.5" y="5049" width="204" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-8" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 25px;&quot;&gt;大禹治水KMS OpenApi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050EF;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="4979" width="284" height="50" as="geometry" />
+          <mxGeometry x="1902.5" y="4979" width="284" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-11" value="&lt;font style=&quot;font-size: 25px;&quot; color=&quot;#000000&quot;&gt;获取远程密钥&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2215" y="5031.13" width="170" height="40" as="geometry" />
+          <mxGeometry x="2187.5" y="5031.13" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;KMS SDK功能包含：&lt;br&gt;1.获取远程密钥&lt;br&gt;2.aescbc256加密算法&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="2670" y="5027.5" width="220" height="90" as="geometry" />
+          <mxGeometry x="2642.5" y="5027.5" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-13" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;" parent="1" vertex="1">
-          <mxGeometry x="2201.27" y="5522.009999999999" width="79.47" height="104.57" as="geometry" />
+          <mxGeometry x="2173.77" y="5522.009999999999" width="79.47" height="104.57" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-14" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
-          <mxGeometry x="2461.31" y="5536.379999999999" width="107.37" height="90.2" as="geometry" />
+          <mxGeometry x="2433.81" y="5536.379999999999" width="107.37" height="90.2" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-15" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/HDInsight.svg;" parent="1" vertex="1">
-          <mxGeometry x="2743.2200000000003" y="5531.779999999999" width="103.57" height="99.41" as="geometry" />
+          <mxGeometry x="2715.7200000000003" y="5531.779999999999" width="103.57" height="99.41" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-17" target="nNbmHaVBcwYtbBB9qG3y-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-17" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Encrypt-DBDriver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2151" y="5332.500000000001" width="180" height="50" as="geometry" />
+          <mxGeometry x="2123.5" y="5332.500000000001" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-19" target="nNbmHaVBcwYtbBB9qG3y-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-19" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;加密/解密&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="2171" y="5424.81" width="140" height="50" as="geometry" />
+          <mxGeometry x="2143.5" y="5424.81" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-21" target="nNbmHaVBcwYtbBB9qG3y-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-21" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;加密/解密&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="2444.9999999999995" y="5424.81" width="140" height="50" as="geometry" />
+          <mxGeometry x="2417.4999999999995" y="5424.81" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-23" target="nNbmHaVBcwYtbBB9qG3y-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-23" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;加密/解密&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="2725.01" y="5424.81" width="140" height="50" as="geometry" />
+          <mxGeometry x="2697.51" y="5424.81" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-25" target="nNbmHaVBcwYtbBB9qG3y-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-25" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;UDF Function&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2705" y="5332.500000000002" width="180" height="50" as="geometry" />
+          <mxGeometry x="2677.5" y="5332.500000000002" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNbmHaVBcwYtbBB9qG3y-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;fontColor=#000000;elbow=vertical;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-27" target="nNbmHaVBcwYtbBB9qG3y-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1666,13 +1666,13 @@
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;elbow=vertical;strokeWidth=2;" parent="1" source="nNbmHaVBcwYtbBB9qG3y-27" target="nNbmHaVBcwYtbBB9qG3y-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2515" y="5272.5" />
-              <mxPoint x="2795" y="5272.5" />
+              <mxPoint x="2487.5" y="5272.5" />
+              <mxPoint x="2767.5" y="5272.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nNbmHaVBcwYtbBB9qG3y-27" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;密钥分发&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="2445" y="5172.5" width="140" height="50" as="geometry" />
+        <mxCell id="nNbmHaVBcwYtbBB9qG3y-27" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;密钥安全分发&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="2401.24" y="5171.99" width="172.51" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GvUnu2bfK3uKi9EYIh7g-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-480" y="4062" width="329" height="260" as="geometry" />
@@ -2230,19 +2230,19 @@
           <mxGeometry x="7226.560000000001" y="2379.2200000000003" width="630" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="2301.02" y="4622.89" width="435.5" height="240" as="geometry" />
+          <mxGeometry x="2273.52" y="4622.89" width="435.5" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-15" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;1.在线MYSQL使用加密插件加密&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="2324.27" y="4644.650000000001" width="382.25" height="55" as="geometry" />
+          <mxGeometry x="2296.77" y="4644.650000000001" width="382.25" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-16" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;大禹治水KMS使用场景&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" parent="1" vertex="1">
-          <mxGeometry x="2301.02" y="4550.39" width="330" height="60" as="geometry" />
+          <mxGeometry x="2273.52" y="4550.39" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-17" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;2.Redis使用KMS SDK加密&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="2323.85" y="4712.89" width="385.35" height="55" as="geometry" />
+          <mxGeometry x="2296.35" y="4712.89" width="385.35" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Is5QtLiEdIjazp-x-Aj2-19" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&amp;nbsp; 3.天穹大数据使用UDF函数加密&amp;nbsp; &amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2324.27" y="4782.89" width="385.35" height="55" as="geometry" />
+          <mxGeometry x="2296.77" y="4782.89" width="385.35" height="55" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;fontColor=#CC0000;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-14" target="T6dX-MR5Zp-30w67L1Tt-120">
           <mxGeometry relative="1" as="geometry" />
@@ -2271,7 +2271,7 @@
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;fontColor=#CC0000;curved=1;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-18" target="T6dX-MR5Zp-30w67L1Tt-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T6dX-MR5Zp-30w67L1Tt-18" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求5: 离线大数据，如果加密/解密？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-18" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求5: 离线大数据，如何加密/解密？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="976" y="5156.99" width="510" height="65" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-19" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;小鹅拼拼业务方相关需求&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
@@ -2318,20 +2318,20 @@
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-122" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 25px;&quot;&gt;密钥流转问题&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fad7ac;strokeColor=#b46504;align=center;" vertex="1" parent="1">
           <mxGeometry x="1577.5" y="5113.24" width="240" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="T6dX-MR5Zp-30w67L1Tt-137" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 25px;&quot;&gt;大禹治水KMS&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050EF;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="4752.5" width="284" height="50" as="geometry" />
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-137" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 25px;&quot;&gt;大禹治水KMS Admin&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050EF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1902.5" y="4752.5" width="284" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;fontColor=#CC0000;elbow=vertical;strokeWidth=2;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-139" target="nNbmHaVBcwYtbBB9qG3y-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-139" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="4802.5" width="284" height="90" as="geometry" />
+          <mxGeometry x="1902.5" y="4802.5" width="284" height="90" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-140" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;创建和托管密钥&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050EF;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1966" y="4822.5" width="204" height="50" as="geometry" />
+          <mxGeometry x="1938.5" y="4822.5" width="204" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-143" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot; color=&quot;#000000&quot;&gt;权限管控&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=25;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="4912.5" width="150" height="50" as="geometry" />
+          <mxGeometry x="2052.5" y="4912.5" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
