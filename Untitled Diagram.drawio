@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T14:05:37.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MebkhKL3OHyWsUkeCO7v" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T14:07:55.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nQmgKIGDaN5rTgjgIgcB" version="20.8.5" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="3932" dy="3022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3587" dy="2816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2250,14 +2250,26 @@
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-14" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求1: 业务方想要托管私有密钥，如何处理？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;align=left;" vertex="1" parent="1">
           <mxGeometry x="918.5" y="4653.15" width="580" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-15" target="T6dX-MR5Zp-30w67L1Tt-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-15" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求2: 密钥被不同服务程序共享，如何控制权限？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;align=left;" vertex="1" parent="1">
           <mxGeometry x="918" y="4737.15" width="580" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-16" target="T6dX-MR5Zp-30w67L1Tt-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-16" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求3: 密钥被不同小组员工共享，如何控制权限？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;align=left;" vertex="1" parent="1">
           <mxGeometry x="918" y="4817.15" width="580" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-17" target="T6dX-MR5Zp-30w67L1Tt-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-17" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求4: 在线数据加密流转到离线大数据，如何解密？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;align=left;" vertex="1" parent="1">
           <mxGeometry x="918" y="4897.12" width="580" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6dX-MR5Zp-30w67L1Tt-18" target="T6dX-MR5Zp-30w67L1Tt-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-18" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;需求5: 离线大数据，如果加密/解密？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;align=left;" vertex="1" parent="1">
           <mxGeometry x="918.5" y="4973.75" width="580" height="65" as="geometry" />
@@ -2285,6 +2297,15 @@
         </mxCell>
         <mxCell id="T6dX-MR5Zp-30w67L1Tt-26" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;平台方需求&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="908.5" y="5130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-28" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;密钥共享和权限问题&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1630.38" y="4780.000000000001" width="279.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-29" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;密钥流转问题&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="4940.000000000001" width="279.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="T6dX-MR5Zp-30w67L1Tt-35" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;密钥共享和权限问题&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1630.38" y="4660.630000000001" width="279.25" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
