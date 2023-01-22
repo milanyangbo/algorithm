@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-22T13:15:51.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cg0xlbJJp4VxzrI6ASDj" version="20.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-22T13:17:07.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="f6lLZf5C7U1r0M6D4c6p" version="20.8.9" type="github">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
     <mxGraphModel dx="2601" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2343,7 +2343,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-1" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;获取PCG敏感数据资产&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3370" y="5087.5" width="330" height="65" as="geometry" />
+          <mxGeometry x="3370" y="5087.5" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-6" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;数据安全运营工作&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="3421.25" y="5027.500000000001" width="260" height="60" as="geometry" />
@@ -2352,7 +2352,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-7" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;推进业务方加密数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3370" y="5250" width="330" height="65" as="geometry" />
+          <mxGeometry x="3370" y="5250" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCBzvN5OnNfv3BO_FeT8-8" target="lCBzvN5OnNfv3BO_FeT8-9">
           <mxGeometry relative="1" as="geometry" />
@@ -2364,28 +2364,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-8" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;业务方对敏感表加密&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3370" y="5424.47" width="330" height="65" as="geometry" />
+          <mxGeometry x="3370" y="5424.47" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="1" source="lCBzvN5OnNfv3BO_FeT8-9" target="lCBzvN5OnNfv3BO_FeT8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-9" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;确认数据是否加密成功&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3370" y="5626.58" width="330" height="65" as="geometry" />
+          <mxGeometry x="3370" y="5626.58" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-15" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;分类分级识别服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="3800" y="5087.5" width="330" height="65" as="geometry" />
+          <mxGeometry x="3800" y="5087.5" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-16" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;大禹治水项目&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="3871.25" y="5020.360000000001" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-17" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;脱敏加密插件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="3800" y="5349.47" width="330" height="65" as="geometry" />
+          <mxGeometry x="3800" y="5349.47" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-18" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;密钥管理系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="3800" y="5490.000000000001" width="330" height="65" as="geometry" />
+          <mxGeometry x="3800" y="5490.000000000001" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lCBzvN5OnNfv3BO_FeT8-19" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;分类分级识别服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="3800" y="5626.58" width="330" height="65" as="geometry" />
+          <mxGeometry x="3800" y="5626.58" width="300" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
