@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T07:36:57.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kfHpAunTulXaiQqqRdYc" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T15:05:02.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hfVcRwvTs-SKtdFzji92" version="20.8.18" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11857" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11581" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2227,6 +2227,9 @@
         <mxCell id="U4DKyj77NWSZZp1MTHw6-613" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;扫描数据正常&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="-1419.54" y="6608.219999999999" width="119.06" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Gr2eAaTaVvr7w9FqbGxs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U4DKyj77NWSZZp1MTHw6-617" target="Gr2eAaTaVvr7w9FqbGxs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="U4DKyj77NWSZZp1MTHw6-617" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;记录错误信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="-1230.8" y="6786.279999999999" width="119.06" height="40" as="geometry" />
         </mxCell>
@@ -3617,6 +3620,9 @@
             <mxPoint x="-7760" y="8110" as="sourcePoint" />
             <mxPoint x="-6450" y="8110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Gr2eAaTaVvr7w9FqbGxs-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;持续优化&lt;br&gt;supersql&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="-1230.8" y="6889.999999999999" width="119.06" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
