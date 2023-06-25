@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:16:00.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WSWYdHKN51qxIne47yGT" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:20:52.269Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="88DuqEHPEFEdJuetD9aN" version="21.2.9" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
     <mxGraphModel dx="6826" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1379,6 +1379,33 @@
         </mxCell>
         <mxCell id="lfcHBtajgOdZ5FvplKi4-111" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;主内存（RAM）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1285" y="4720" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfcHBtajgOdZ5FvplKi4-115" target="lfcHBtajgOdZ5FvplKi4-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-115" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;源代码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="4800" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfcHBtajgOdZ5FvplKi4-116" target="lfcHBtajgOdZ5FvplKi4-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-116" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1：编译器&lt;br&gt;优化重排序&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="4800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lfcHBtajgOdZ5FvplKi4-117" target="lfcHBtajgOdZ5FvplKi4-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-117" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2：指令级&lt;br&gt;并行重排序&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="4800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfcHBtajgOdZ5FvplKi4-118" target="lfcHBtajgOdZ5FvplKi4-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-118" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;3：内存系&lt;br&gt;统重排序&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="4800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-119" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;最终执行的指令序列&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-945" y="4800" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
