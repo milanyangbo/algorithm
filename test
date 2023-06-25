@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:43:39.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HpOhcmnyAcMwlpRHAKBu" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:48:12.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4bx7ujBcpgTGd4mAbBeO" version="21.2.9" type="github">
   <diagram id="XODJ73xSYQiL7rLDdb7S" name="Page-1">
     <mxGraphModel dx="6881" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1511,6 +1511,24 @@
         </mxCell>
         <mxCell id="lfcHBtajgOdZ5FvplKi4-170" value="Memory&lt;br&gt;内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="5180" width="88" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-172" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="5370" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-173" value="Memory&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;内存" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1215" y="5425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-174" value="Modified&lt;br&gt;修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1277.5" y="5390" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-175" value="Shared&lt;br&gt;共享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="5480" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-176" value="Exclusive&lt;br&gt;独享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="5390" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lfcHBtajgOdZ5FvplKi4-177" value="Invalid&lt;br&gt;失效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="5480" width="55" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
