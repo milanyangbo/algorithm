@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T12:39:00.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="msBn4al8ZRLbrKldKEQo" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T12:40:15.974Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="C0hHegTD7jHBfN9Rfp3m" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="13237" dy="2617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12202" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3819,7 +3819,7 @@
         <mxCell id="FatY6P8ltx9sIcmJNaGd-244" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ruleN&lt;br style=&quot;font-size: 16px;&quot;&gt;chain&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;strokeWidth=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="3973.629999999999" y="6793.77" width="38" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="FatY6P8ltx9sIcmJNaGd-246" value="基于责任链模式的规则计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="FatY6P8ltx9sIcmJNaGd-246" value="基于责任链模式的规则识别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="3818.3300000000004" y="6724.490000000001" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FatY6P8ltx9sIcmJNaGd-247" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;strokeWidth=0;dashed=1;" parent="1" vertex="1">
