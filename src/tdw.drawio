@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T08:51:34.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NnuJC7czh0vdgcwhQEaJ" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T10:13:27.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="E5-IrBc5eJsYJc-ZgtL7" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10650" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10477" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5095,14 +5095,137 @@
         <mxCell id="__GHCyoIgLZqE17VKvKx-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;扫描上报&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3588.53" y="10598.75" width="81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nqtC00ZWHRUtqavsyRb4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;JAVA HTTP容器 TOMCAT缺省配置，无法用于生产环境，且TRPC JAVA没有对TOMCAT优化，因此需要调优&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2516.56" y="12450" width="800" height="30" as="geometry" />
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;JAVA HTTP容器 Tomcat缺省配置，无法用于生产环境，且TRPC JAVA没有对Tomcat优化，因此需要调优&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2597.7999999999997" y="12410" width="780" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2516.8" y="12540" width="703.2" height="290" as="geometry" />
+          <mxGeometry x="2590" y="12580" width="350" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="nqtC00ZWHRUtqavsyRb4-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOMCAT 缺省BIO模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2519" y="12550" width="181" height="30" as="geometry" />
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOMCAT 缺省BIO网络模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2596.7" y="12580" width="203.3" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-9" target="nqtC00ZWHRUtqavsyRb4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Acceptor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2606.5" y="12670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-10" target="nqtC00ZWHRUtqavsyRb4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Executor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2722.38" y="12670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3124.14" y="12590" width="765.86" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOMCAT NIO Reactor网络模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3128.59" y="12600" width="231.41" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-15" target="nqtC00ZWHRUtqavsyRb4-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Acceptor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3161.67" y="12780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-17" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;“读取socket并交给Executor”这个过程是阻塞的，&lt;br&gt;socket等待下一个请求或等待释放的过程中，&lt;br&gt;处理这个socket的工作线程会一直被占用，无法释放；&lt;br&gt;因此Tomcat可以同时处理的socket数目不能超过最大线程数，&lt;br&gt;性能“吞吐量”受到了极大限制。&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2589.89" y="12470" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;接受客户端连接&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2603.1899999999996" y="12640" width="110.68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;线程池&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2738.12" y="12640" width="48.53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Processor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2839.45" y="12670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-25" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;处理客户端请求&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2825.77" y="12640" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-29" target="nqtC00ZWHRUtqavsyRb4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;NIOChannel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297.87" y="12775" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-44" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Processor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3780.9399999999996" y="12655" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-46" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;NIOChannel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297.87" y="12805" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;......&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297.87" y="12835" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-49" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Poller Event&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3296.7000000000003" y="12650" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-51" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Poller Event&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297.8700000000003" y="12680" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-52" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;......&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297.8700000000003" y="12710" width="100.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;注册&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3241.67" y="12795" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-59" target="nqtC00ZWHRUtqavsyRb4-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-59" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Selector&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3437.5299999999997" y="12662.5" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-60" target="nqtC00ZWHRUtqavsyRb4-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-60" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Executor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3667.1800000000003" y="12655" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-62" target="nqtC00ZWHRUtqavsyRb4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-62" target="nqtC00ZWHRUtqavsyRb4-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-62" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Poller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3538.1199999999994" y="12672.5" width="93.05" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-67" target="nqtC00ZWHRUtqavsyRb4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-67" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Poller Pool&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3540.5399999999995" y="12750" width="88.21" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-69" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.75); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;负责监听请求&lt;br&gt;将请求的事件注册到事件列表&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3138.4999999999995" y="12735" width="206.94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Poller来负责轮询&lt;br&gt;维护selector&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3530.0499999999997" y="12625" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-71" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;线程池&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3682" y="12630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-72" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;处理客户端请求&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3774.3799999999997" y="12630" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-73" value="网络通道，支持非阻塞IO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3395.2599999999998" y="12805" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-74" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;检测通道上的事件&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3401.8199999999997" y="12635" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-76" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;从BIO改成NIO网络模型&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2945.8100000000004" y="12630" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-77" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;“读取socket并交给Worker中的线程”这个过程是非阻塞的，当socket在等待下一个请求或等待释放时，并不会占用工作线程，&lt;br&gt;因此Tomcat可以同时处理的socket数目远大于最大线程数，并发性能（“吞吐量”）大大提高。&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3123.43" y="12500" width="920" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2579.5299999999997" y="12990" width="765.86" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-79" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOMCAT Executor 线程模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2593.6499999999996" y="13000" width="220.07" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
