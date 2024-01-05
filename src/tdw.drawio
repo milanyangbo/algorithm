@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T13:37:30.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="23yAxnRn6buRpaP5b4Iv" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T14:17:18.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_jFl-IqjAKHcwvnWB-lr" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10132" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11008" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5216,7 +5216,7 @@
           <mxGeometry x="3450.99" y="12780" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-76" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;从BIO改成NIO网络模型&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2945.8100000000004" y="12870" width="190" height="30" as="geometry" />
+          <mxGeometry x="2950.0000000000005" y="12870" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-77" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;“读取socket并交给Worker中的线程”这个过程是非阻塞的，当socket在等待下一个请求或等待释放时，&lt;br&gt;并不会占用工作线程，因此Tomcat可以同时处理的socket数目远大于最大线程数，&lt;br&gt;并发性能（“吞吐量”）大大提高。&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3135.4199999999996" y="12690" width="760" height="70" as="geometry" />
@@ -5285,61 +5285,61 @@
           <mxGeometry x="3010.4100000000003" y="13341" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-129" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3275.71" y="13050" width="684.29" height="351" as="geometry" />
+          <mxGeometry x="3274.02" y="13050.5" width="684.29" height="351" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-135" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Tomcat 线程模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3294.71" y="13050" width="220.07" height="30" as="geometry" />
+          <mxGeometry x="3293.02" y="13060.5" width="135.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nqtC00ZWHRUtqavsyRb4-136" target="nqtC00ZWHRUtqavsyRb4-139" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-136" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IO线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3285.09" y="13191" width="82.77" height="30" as="geometry" />
+          <mxGeometry x="3283.4" y="13211.5" width="82.77" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nqtC00ZWHRUtqavsyRb4-137" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tomcat Task Queue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3739.8" y="13091" width="183.61" height="30" as="geometry" />
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-137" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Task Queue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3738.11" y="13111.5" width="183.61" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nqtC00ZWHRUtqavsyRb4-139" target="nqtC00ZWHRUtqavsyRb4-153" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-139" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;offer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3397.37" y="13191" width="82.77" height="30" as="geometry" />
+          <mxGeometry x="3395.68" y="13211.5" width="82.77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-143" value="&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; font-variant-ligatures: no-common-ligatures; background-color: rgb(255, 255, 255);&quot;&gt;处理请求&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3648.2200000000003" y="13161" width="64.68" height="30" as="geometry" />
+          <mxGeometry x="3646.53" y="13181.5" width="64.68" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-144" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;小于最大线程数的时候，不放入队列&lt;br&gt;尽可能创建多的线程执行任务&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3316.6999999999994" y="13149" width="249.21" height="30" as="geometry" />
+          <mxGeometry x="3315.0099999999993" y="13169.5" width="249.21" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-157" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-145" target="nqtC00ZWHRUtqavsyRb4-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-145" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3762.38" y="13191" width="163.83" height="120" as="geometry" />
+          <mxGeometry x="3760.69" y="13211.5" width="163.83" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-146" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Work Pool&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3794.22" y="13311" width="90" height="30" as="geometry" />
+          <mxGeometry x="3792.5299999999997" y="13331.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-147" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;maxThreads&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3793.1999999999994" y="13191" width="110" height="30" as="geometry" />
+          <mxGeometry x="3791.5099999999993" y="13211.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-148" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3770.07" y="13236" width="146.15" height="55" as="geometry" />
+          <mxGeometry x="3768.38" y="13256.5" width="146.15" height="55" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-149" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;minSpareThreads&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3779.849999999999" y="13251" width="150" height="30" as="geometry" />
+          <mxGeometry x="3778.159999999999" y="13271.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.574;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-145" target="nqtC00ZWHRUtqavsyRb4-137" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-151" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;获取空闲线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3838.46" y="13149" width="110" height="30" as="geometry" />
+          <mxGeometry x="3836.77" y="13169.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-152" target="nqtC00ZWHRUtqavsyRb4-167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-152" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;execute&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3648.2200000000007" y="13191" width="82.77" height="30" as="geometry" />
+          <mxGeometry x="3646.5300000000007" y="13211.5" width="82.77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-153" target="nqtC00ZWHRUtqavsyRb4-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5348,34 +5348,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-153" value="任务数是否大于&lt;br&gt;maxThreads" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3509.47" y="13151" width="102" height="110" as="geometry" />
+          <mxGeometry x="3507.7799999999997" y="13171.5" width="102" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-160" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3600.9" y="13179" width="40" height="30" as="geometry" />
+          <mxGeometry x="3599.21" y="13199.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-166" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3549.4700000000003" y="13121" width="40" height="30" as="geometry" />
+          <mxGeometry x="3547.78" y="13141.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-167" value="任务数是否大于&lt;br&gt;maxThreads&lt;br&gt;和&lt;br&gt;task Queue" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3636.68" y="13251" width="102" height="110" as="geometry" />
+          <mxGeometry x="3634.99" y="13271.5" width="102" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.393;entryY=1.097;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-167" target="nqtC00ZWHRUtqavsyRb4-139" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-170" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3422.1" y="13279" width="40" height="30" as="geometry" />
+          <mxGeometry x="3420.41" y="13299.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-171" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;如果当前任务被拒绝，再次尝试加入到等待队列中&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;尽可能正确执行任务&lt;/b&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3310.9000000000005" y="13301" width="330" height="50" as="geometry" />
+          <mxGeometry x="3309.2100000000005" y="13321.5" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-175" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将当前任务放入队列&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3589.8" y="13109" width="150" height="30" as="geometry" />
+          <mxGeometry x="3588.11" y="13129.5" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nqtC00ZWHRUtqavsyRb4-177" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;Tomcat默认参数偏保守&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;，网络&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;I/O&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;请求，可以整体调大参数配置，提高吞吐量&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2748.48" y="13061" width="491.52" height="29" as="geometry" />
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-177" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;Tomcat默认参数偏保守&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;，网络&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;I/O&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;&lt;b&gt;请求，整体调大参数配置，提高吞吐量&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2748.04" y="13060" width="491.52" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="DgKxIJkxb9AI2Ur28YA7-1" value="connectionTimeout&lt;br&gt;默认60000-&amp;gt;30000&lt;br&gt;tcpNoDelay&lt;br&gt;默认True-&amp;gt;&amp;nbsp;True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2598.4900000000002" y="13221" width="130" height="70" as="geometry" />
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;connectionTimeout&lt;br&gt;默认60000-&amp;gt;30000&lt;br&gt;tcpNoDelay&lt;br&gt;默认True-&amp;gt;&amp;nbsp;True&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2593.3700000000003" y="13216" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;扩展了原生的ThreadPoolExecutor，通过重写execute方法实现了自己的任务处理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3417.0499999999997" y="13070.5" width="530" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
