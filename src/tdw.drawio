@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T14:17:18.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_jFl-IqjAKHcwvnWB-lr" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T14:18:24.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MxBfKiq1E5LfyaWj2J9r" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11008" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10871" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5297,7 +5297,7 @@
           <mxGeometry x="3283.4" y="13211.5" width="82.77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-137" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Task Queue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3738.11" y="13111.5" width="183.61" height="30" as="geometry" />
+          <mxGeometry x="3759.66" y="13111.5" width="166.82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nqtC00ZWHRUtqavsyRb4-139" target="nqtC00ZWHRUtqavsyRb4-153" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5314,6 +5314,9 @@
         <mxCell id="nqtC00ZWHRUtqavsyRb4-157" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-145" target="nqtC00ZWHRUtqavsyRb4-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqtC00ZWHRUtqavsyRb4-145" target="nqtC00ZWHRUtqavsyRb4-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-145" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3760.69" y="13211.5" width="163.83" height="120" as="geometry" />
         </mxCell>
@@ -5321,7 +5324,7 @@
           <mxGeometry x="3792.5299999999997" y="13331.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-147" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;maxThreads&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3791.5099999999993" y="13211.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="3791.4299999999994" y="13216" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-148" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3768.38" y="13256.5" width="146.15" height="55" as="geometry" />
@@ -5329,11 +5332,8 @@
         <mxCell id="nqtC00ZWHRUtqavsyRb4-149" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;minSpareThreads&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3778.159999999999" y="13271.5" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nqtC00ZWHRUtqavsyRb4-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.574;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-145" target="nqtC00ZWHRUtqavsyRb4-137" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-151" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;获取空闲线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3836.77" y="13169.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="3833.89" y="13164" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nqtC00ZWHRUtqavsyRb4-152" target="nqtC00ZWHRUtqavsyRb4-167" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5369,7 +5369,7 @@
           <mxGeometry x="3309.2100000000005" y="13321.5" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-175" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将当前任务放入队列&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3588.11" y="13129.5" width="150" height="30" as="geometry" />
+          <mxGeometry x="3587.78" y="13134" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-177" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;Tomcat默认参数偏保守&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;;&quot;&gt;，网络&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;I/O&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; color: rgb(83, 88, 95);&quot;&gt;&lt;b&gt;请求，整体调大参数配置，提高吞吐量&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2748.04" y="13060" width="491.52" height="29" as="geometry" />
