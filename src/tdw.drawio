@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T08:21:31.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uTW0NWXj9XNqQsOFi7vl" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T08:51:34.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NnuJC7czh0vdgcwhQEaJ" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10650" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5094,6 +5094,15 @@
         </mxCell>
         <mxCell id="__GHCyoIgLZqE17VKvKx-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;扫描上报&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3588.53" y="10598.75" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;JAVA HTTP容器 TOMCAT缺省配置，无法用于生产环境，且TRPC JAVA没有对TOMCAT优化，因此需要调优&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2516.56" y="12450" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2516.8" y="12540" width="703.2" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nqtC00ZWHRUtqavsyRb4-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOMCAT 缺省BIO模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2519" y="12550" width="181" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
