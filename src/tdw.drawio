@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T14:18:24.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MxBfKiq1E5LfyaWj2J9r" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T14:19:55.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zJX49VREBNZ4wsFOYRZA" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10871" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10753" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5285,7 +5285,7 @@
           <mxGeometry x="3010.4100000000003" y="13341" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-129" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3274.02" y="13050.5" width="684.29" height="351" as="geometry" />
+          <mxGeometry x="3274.02" y="13050.5" width="685.98" height="351" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-135" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Tomcat 线程模型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3293.02" y="13060.5" width="135.29" height="30" as="geometry" />
@@ -5377,8 +5377,8 @@
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;connectionTimeout&lt;br&gt;默认60000-&amp;gt;30000&lt;br&gt;tcpNoDelay&lt;br&gt;默认True-&amp;gt;&amp;nbsp;True&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2593.3700000000003" y="13216" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DgKxIJkxb9AI2Ur28YA7-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;扩展了原生的ThreadPoolExecutor，通过重写execute方法实现了自己的任务处理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3417.0499999999997" y="13070.5" width="530" height="30" as="geometry" />
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;扩展了原生的ThreadPoolExecutor，重写execute方法，更符合网络任务处理场景&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3434.4799999999996" y="13070.5" width="530" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
