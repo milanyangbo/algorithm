@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T08:26:19.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EOHyymZLuhPZLQP4dSpr" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T08:26:31.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="epVfyAb0ZxbOp0aKFmhg" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10226" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10477" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5396,7 +5396,7 @@
           <mxGeometry x="2661.3899999999994" y="13732.5" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;并行方案1- ThreadPoolExecutor + Ringbuffer + Google Guava ListenableFuture&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2493.8599999999997" y="13562.5" width="617.53" height="30" as="geometry" />
+          <mxGeometry x="2487.9999999999995" y="13562.5" width="617.53" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-32" target="DgKxIJkxb9AI2Ur28YA7-27">
           <mxGeometry relative="1" as="geometry" />
