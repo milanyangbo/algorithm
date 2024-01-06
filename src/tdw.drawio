@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T15:58:27.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PBSer565dGimJYKoBXJ0" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T15:58:41.960Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="By3aNdgRYkfpSDKDHkSV" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10753" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5913,7 +5913,7 @@
           <mxGeometry x="2029.8499999999997" y="15121" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-637" value="工作窃取算法的优点:充分利用线程进行并行计算，减少了线程间的竞争。&#xa;对于CPU密集型场景，需要高效利用多核CPU能力，&#xa;FrokJoin可以更合理将任务分配到多核CPU上，&#xa;因此选择FrokJoin + Stream API + CompleteFuture并行方案&#xa;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=16;fontColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="2438.39" y="14920" width="514.94" height="135" as="geometry" />
+          <mxGeometry x="2438.39" y="14920" width="531.61" height="135" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-638" value="双端队列，减少窃取线程和被窃取线程之间的竞争&#xa;&#xa;" style="text;whiteSpace=wrap;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1780.8100000000002" y="14860" width="317.18" height="29" as="geometry" />
