@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T16:20:01.586Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sqw52fskp6FIhZzdsgkx" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T16:27:19.085Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bsEwlt4XB_Ob8Q_8lgYa" version="22.1.17" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11355" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9984" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5920,6 +5920,9 @@
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-639" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;工作窃取（ work-stealing ）算法&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1940.6000000000001" y="14811" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U6Z6MI2gHK6zZlrSpN5--1" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;什么是分类分级：&lt;br&gt;分类就是数据的类别，比如身份证属于个人敏感信息类别；&lt;br&gt;分级就是数据的敏感等级，分L1-L4，L4等级数据需要管控。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3148.45" y="10280" width="450" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
