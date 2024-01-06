@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T15:59:06.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="r-GCz4kN3vYn8s8a_IZe" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T16:02:32.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XI5Imbt7houNtxGb5Tie" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11008" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5666,7 +5666,7 @@
           <mxGeometry x="2190.19" y="13960" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-363" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1659.9999999999998" y="14440" width="730" height="360" as="geometry" />
+          <mxGeometry x="1659.9999999999998" y="14433" width="730" height="360" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-400" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-402" target="DgKxIJkxb9AI2Ur28YA7-405">
           <mxGeometry relative="1" as="geometry">
@@ -5788,138 +5788,138 @@
           <mxGeometry x="2397.640000000001" y="14483" width="590" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-436" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1659.9999999999998" y="14810" width="1349.74" height="440" as="geometry" />
+          <mxGeometry x="1660" y="14800" width="1349.74" height="430" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-437" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;FrokJoin 高性能原理&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1676.8499999999997" y="14821" width="154.27" height="30" as="geometry" />
+          <mxGeometry x="1676.8499999999997" y="14811" width="154.27" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-438" value="&lt;h4 style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; box-sizing: border-box; outline: 0px; margin: 24px 0px 8px; padding: 0px; line-height: 26px; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1903.28" y="15460" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-439" value="&lt;h4 style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); box-sizing: border-box; outline: 0px; margin: 24px 0px 8px; padding: 0px; line-height: 26px; overflow-wrap: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2043.7900000000002" y="14810" width="20" height="70" as="geometry" />
+          <mxGeometry x="2043.7900000000002" y="14800" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-447" target="DgKxIJkxb9AI2Ur28YA7-458">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-485" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-447" target="DgKxIJkxb9AI2Ur28YA7-477">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1979.0800000000002" y="14870.998823529413" as="sourcePoint" />
-            <mxPoint x="2188.256470588236" y="15095.94" as="targetPoint" />
+            <mxPoint x="1979.0800000000002" y="14860.998823529413" as="sourcePoint" />
+            <mxPoint x="2188.256470588236" y="15085.94" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1935.6000000000001" y="14860" />
-              <mxPoint x="2165.6" y="14860" />
+              <mxPoint x="1935.6000000000001" y="14850" />
+              <mxPoint x="2165.6" y="14850" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-447" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1885.8500000000001" y="14911" width="100" height="210" as="geometry" />
+          <mxGeometry x="1885.8500000000001" y="14901" width="100" height="210" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-449" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Dequeue&lt;br&gt;双端队列&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1905.1700000000003" y="14920.51" width="60" height="30" as="geometry" />
+          <mxGeometry x="1905.1700000000003" y="14910.51" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-450" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.8799999999999" y="14961" width="84" height="30" as="geometry" />
+          <mxGeometry x="1892.8799999999999" y="14951" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-451" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.72" y="14991" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1892.72" y="14981" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-452" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.39" y="15021" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1892.39" y="15011" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-453" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task4&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.39" y="15051" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1892.39" y="15041" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-455" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;......&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.39" y="15081" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1892.39" y="15071" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-456" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-447" target="DgKxIJkxb9AI2Ur28YA7-447">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-458" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Thread-1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1888.2700000000002" y="15191" width="95.87" height="40" as="geometry" />
+          <mxGeometry x="1888.2700000000002" y="15181" width="95.87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-460" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;处理任务LIFO&lt;br&gt;后进先出&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1930.1200000000001" y="15121" width="110" height="50" as="geometry" />
+          <mxGeometry x="1930.1200000000001" y="15111" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-461" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="DgKxIJkxb9AI2Ur28YA7-447">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1815.8500000000001" y="15161" as="sourcePoint" />
-            <mxPoint x="1815.8500000000001" y="15211" as="targetPoint" />
+            <mxPoint x="1815.8500000000001" y="15151" as="sourcePoint" />
+            <mxPoint x="1815.8500000000001" y="15201" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1815.8500000000001" y="15161" />
-              <mxPoint x="1910.8500000000001" y="15161" />
+              <mxPoint x="1815.8500000000001" y="15151" />
+              <mxPoint x="1910.8500000000001" y="15151" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-462" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;任务入/出队&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1820.1300000000003" y="15131" width="100" height="30" as="geometry" />
+          <mxGeometry x="1820.1300000000003" y="15121" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-463" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1883.8600000000004" y="14975.69" as="sourcePoint" />
-            <mxPoint x="1833.8600000000004" y="14975.69" as="targetPoint" />
+            <mxPoint x="1883.8600000000004" y="14965.69" as="sourcePoint" />
+            <mxPoint x="1833.8600000000004" y="14965.69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-464" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1883.1499999999999" y="15095.7" as="sourcePoint" />
-            <mxPoint x="1833.1499999999999" y="15095.7" as="targetPoint" />
+            <mxPoint x="1883.1499999999999" y="15085.7" as="sourcePoint" />
+            <mxPoint x="1833.1499999999999" y="15085.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-465" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;队尾&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1744.4999999999998" y="14961" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1744.4999999999998" y="14951" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-466" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;队首&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1744.4999999999998" y="15081" width="84.16" height="30" as="geometry" />
+          <mxGeometry x="1744.4999999999998" y="15071" width="84.16" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-468" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;空&lt;br&gt;余&lt;br&gt;队&lt;br&gt;列&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2204.67" y="14911" width="100" height="210" as="geometry" />
+          <mxGeometry x="2204.67" y="14901" width="100" height="210" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-469" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Dequeue&lt;br&gt;双端队列&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2227.31" y="14920.51" width="60" height="30" as="geometry" />
+          <mxGeometry x="2227.31" y="14910.51" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-476" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2291.52" y="15181" as="sourcePoint" />
-            <mxPoint x="2291.52" y="15181" as="targetPoint" />
+            <mxPoint x="2291.52" y="15171" as="sourcePoint" />
+            <mxPoint x="2291.52" y="15171" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-477" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Thread-2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2114.6000000000004" y="15191" width="95.87" height="40" as="geometry" />
+          <mxGeometry x="2114.6000000000004" y="15181" width="95.87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-479" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2359.2200000000003" y="15171" as="sourcePoint" />
-            <mxPoint x="2271.6400000000003" y="15121" as="targetPoint" />
+            <mxPoint x="2359.2200000000003" y="15161" as="sourcePoint" />
+            <mxPoint x="2271.6400000000003" y="15111" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-480" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;任务入/出队&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2264.2200000000003" y="15131" width="100" height="30" as="geometry" />
+          <mxGeometry x="2264.2200000000003" y="15121" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-486" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;任务窃取FIFO&lt;br&gt;先进先出&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2062.399999999999" y="14920" width="110" height="50" as="geometry" />
+          <mxGeometry x="2062.399999999999" y="14910" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-487" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2013.66" y="15048.57" as="sourcePoint" />
-            <mxPoint x="2153.66" y="15048.57" as="targetPoint" />
+            <mxPoint x="2013.66" y="15038.57" as="sourcePoint" />
+            <mxPoint x="2153.66" y="15038.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-488" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;相互窃取任务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2029.8500000000001" y="15015" width="110" height="30" as="geometry" />
+          <mxGeometry x="2029.8500000000001" y="15005" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-489" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;避免线程饥渴现象&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2029.8499999999997" y="15131" width="140" height="30" as="geometry" />
+          <mxGeometry x="2029.8499999999997" y="15121" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-637" value="工作窃取算法的优点:充分利用线程进行并行计算，减少了线程间的竞争。&#xa;对于CPU密集型场景，需要高效利用多核CPU能力，&#xa;FrokJoin可以更合理将任务分配到多核CPU上，&#xa;因此选择FrokJoin + Stream API + CompleteFuture并行方案&#xa;" style="text;whiteSpace=wrap;fontStyle=1;fontSize=16;fontColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="2438.39" y="14930" width="531.61" height="135" as="geometry" />
+          <mxGeometry x="2438.39" y="14920" width="531.61" height="135" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-638" value="双端队列，减少窃取线程和被窃取线程之间的竞争&#xa;&#xa;" style="text;whiteSpace=wrap;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1780.8100000000002" y="14870" width="317.18" height="29" as="geometry" />
+          <mxGeometry x="1780.8100000000002" y="14860" width="317.18" height="29" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-639" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;工作窃取（ work-stealing ）算法&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1940.6000000000001" y="14821" width="230" height="30" as="geometry" />
+          <mxGeometry x="1940.6000000000001" y="14811" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
