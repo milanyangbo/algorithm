@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T09:29:06.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XI53EGlpBIs-wMZPVxkd" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T09:58:09.791Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_hUqvCIUV66KhUSoR1OY" version="22.1.16" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10650" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9734" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5468,7 +5468,7 @@
           <mxGeometry x="2417.24" y="13565" width="590.34" height="335" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-115" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="13910" width="1349.74" height="440" as="geometry" />
+          <mxGeometry x="1660.6699999999998" y="13910" width="1349.74" height="440" as="geometry" />
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-116" value="futureget" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2217.5299999999997" y="13760" width="70" height="30" as="geometry" />
@@ -5511,6 +5511,93 @@
         </mxCell>
         <mxCell id="DgKxIJkxb9AI2Ur28YA7-131" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Read&lt;br&gt;Pointer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1929.99" y="13752.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-133" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;// 写指针向后移动&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;public long next(int n)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; //......&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; long current,next;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; do&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 此处先将写指针的当前值备份一下&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; current = pointer.get();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 预计写指针将要移动到的位置&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; next = current + n;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt; &amp;nbsp; //......省略：确保从current到current+n的Slot已被消费者读完&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 原子操作*如果当前写指针和刚才一样，那么移动写指针&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if ( pointer.comapreAndSet(current,next) )&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; }while ( true )// &lt;b&gt;如果CAS失败或者还不能移动写指针，则不断尝试&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; return next;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2564.8399999999997" y="13910" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-167" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a=56&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1759.85" y="13980" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-168" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CPU1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1699.85" y="14070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-169" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CPU2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1834.85" y="14070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-170" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1719.85" y="14070" as="sourcePoint" />
+            <mxPoint x="1759.85" y="14010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-171" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1739.85" y="14070" as="sourcePoint" />
+            <mxPoint x="1779.85" y="14010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-172" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;CAS(56,57)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1669.85" y="14020" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-173" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1869.85" y="14070" as="sourcePoint" />
+            <mxPoint x="1829.85" y="14010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-174" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1889.85" y="14070" as="sourcePoint" />
+            <mxPoint x="1849.85" y="14010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-175" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;noproblem&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1739.85" y="14040" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-176" value="sorry late" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1859.85" y="14020" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-177" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CAS(55,56)&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1779.85" y="14020" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-178" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;原因一：Lock Free，无锁并发编程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1700.3999999999999" y="13950" width="237.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-180" value="CAS操作比锁Lock消耗资源少的多，因为它们不牵涉操作系统" style="text;whiteSpace=wrap;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1702.53" y="14100" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-189" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-182" target="DgKxIJkxb9AI2Ur28YA7-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-182" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CPU1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1709.8499999999997" y="14320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-188" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-183" target="DgKxIJkxb9AI2Ur28YA7-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-183" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CPU2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1809.8499999999997" y="14320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-185" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;LOCK&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1757.34" y="14250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-186" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;UNLOCK&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760.85" y="14150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-187" target="DgKxIJkxb9AI2Ur28YA7-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-187" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a=56&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1759.85" y="14200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-192" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a=56&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1815.6999999999996" y="14280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-193" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a=57&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1724.5399999999997" y="14280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKxIJkxb9AI2Ur28YA7-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DgKxIJkxb9AI2Ur28YA7-185" target="DgKxIJkxb9AI2Ur28YA7-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
