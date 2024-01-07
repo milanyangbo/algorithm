@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T02:33:38.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QsIEZIJuZgl9yAI-T1lz" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T02:33:51.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="68khzL6nuxP9klUELIS3" version="22.1.17" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10871" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11355" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5216,7 +5216,7 @@
           <mxGeometry x="3392.1099999999997" y="13880" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-76" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 14px;&quot;&gt;从BIO改成NIO网络模型&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2901.5600000000004" y="13974.75" width="170" height="30" as="geometry" />
+          <mxGeometry x="2906.5400000000004" y="13977.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-77" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;“读取socket并交给Worker中的线程”这个过程是非阻塞的，当socket在等待下一个请求或等待释放时，&lt;br&gt;并不会占用工作线程，因此Tomcat可以同时处理的socket数目远大于最大线程数，&lt;br&gt;并发性能（“吞吐量”）大大提高。&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3076.5399999999995" y="13784.75" width="760" height="70" as="geometry" />
@@ -5229,8 +5229,8 @@
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2901.56" y="14008.749999999998" as="sourcePoint" />
-            <mxPoint x="3060" y="14009" as="targetPoint" />
+            <mxPoint x="2907.34" y="14009.389999999998" as="sourcePoint" />
+            <mxPoint x="3065.78" y="14009.64" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nqtC00ZWHRUtqavsyRb4-84" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
