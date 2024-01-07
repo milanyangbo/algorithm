@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T11:28:29.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HX0dE39boVSFGIfkGFAu" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T11:38:17.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aaTfd9PbtKKm0_gZ2-Rl" version="22.1.17" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10339" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11355" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6862,6 +6862,63 @@
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-616" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;G1收集器垃圾回收过程&lt;br&gt;采用标记-整理-复制算法&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1385.08" y="15390.5" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-634" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1529.34" y="14910" width="450.66" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-652" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-654" target="eNEwvFJlHKa5ZDA3M9LU-661">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-653" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-654" target="eNEwvFJlHKa5ZDA3M9LU-662">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-654" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Serial&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1573.7599999999998" y="15045.5" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-655" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-656" target="eNEwvFJlHKa5ZDA3M9LU-662">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-656" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ParNew&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690.35" y="15045.5" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-657" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-659" target="eNEwvFJlHKa5ZDA3M9LU-662">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-658" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-659" target="eNEwvFJlHKa5ZDA3M9LU-663">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-659" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Parallel&lt;br&gt;Scavenge&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1801.3899999999999" y="15045.5" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-660" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-661" target="eNEwvFJlHKa5ZDA3M9LU-662">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-661" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;CMS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1573.7600000000002" y="15192.5" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-662" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Serial Old(MSC)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690.35" y="15235.75" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-663" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Parallel Old&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1801.3899999999999" y="15192.5" width="83" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-664" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;G1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900.2799999999997" y="15094.5" width="44.02" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-665" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560.08" y="15139.42" as="sourcePoint" />
+            <mxPoint x="1950.08" y="15139.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-666" value="Young gencration" style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1676.38" y="14987.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-667" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tenured generation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1829.05" y="15271" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-668" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JAVA虚拟机垃圾收集器分布&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1539.7200000000003" y="14930" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
