@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T02:34:24.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VrZHY-0FC8mnBRFHNCO5" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T02:36:49.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sph4KGlyQna7-X1VBVjj" version="22.1.17" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11857" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5012,7 +5012,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w9wCyBkHYUIqF2p5QDWp-442" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;性能优化-多线程优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="3621.9900000000002" y="12634.75" width="172.24" height="60.25" as="geometry" />
+          <mxGeometry x="3615.0800000000004" y="12635.25" width="172.24" height="60.25" as="geometry" />
         </mxCell>
         <mxCell id="w9wCyBkHYUIqF2p5QDWp-445" value="JVM虚拟机（G1收集器）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="2796.6" y="13244.75" width="1604.26" height="80" as="geometry" />
@@ -5048,10 +5048,7 @@
           <mxGeometry x="4120.1900000000005" y="13391.72" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w9wCyBkHYUIqF2p5QDWp-456" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;性能优化-内存优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2858.4999999999995" y="13144.749999999998" width="145.82" height="60.25" as="geometry" />
-        </mxCell>
-        <mxCell id="w9wCyBkHYUIqF2p5QDWp-457" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.084;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w9wCyBkHYUIqF2p5QDWp-456" target="w9wCyBkHYUIqF2p5QDWp-445" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="2835.2699999999995" y="13142.999999999998" width="145.82" height="60.25" as="geometry" />
         </mxCell>
         <mxCell id="w9wCyBkHYUIqF2p5QDWp-458" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;第一个版本：&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;纯脚本开发，部署维护不方便，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;非高可用，无法承载大流量数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2460.25" y="10480" width="250" height="70" as="geometry" />
@@ -5923,6 +5920,9 @@
         </mxCell>
         <mxCell id="U6Z6MI2gHK6zZlrSpN5--1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#990000&quot;&gt;什么是分类分级：&lt;br&gt;分类就是数据的类别，比如身份证属于个人敏感信息类别；&lt;br&gt;分级就是数据的敏感等级，分L1-L4级，L4&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 19px;&quot; color=&quot;#990000&quot;&gt;级&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#990000&quot;&gt;数据需要管控。&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3027.23" y="10260" width="530" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bSf2XNyiSlMEU7z3wFkt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.069;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="w9wCyBkHYUIqF2p5QDWp-456" target="w9wCyBkHYUIqF2p5QDWp-445">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
