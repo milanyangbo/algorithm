@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T08:39:38.482Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SZnlVDNTEpx-a3m_7oQ4" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T08:52:23.258Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y8vtLS-rvNNrrKsjdDvx" version="22.1.17" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10558" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11857" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5923,6 +5923,9 @@
         </mxCell>
         <mxCell id="bSf2XNyiSlMEU7z3wFkt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.069;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w9wCyBkHYUIqF2p5QDWp-456" target="w9wCyBkHYUIqF2p5QDWp-445" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;不同于ThreadPoolExecutor，每个线程对应一个队列&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1154.16" y="14271" width="355" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
