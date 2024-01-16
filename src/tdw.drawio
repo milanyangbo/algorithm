@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T15:20:06.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="W2Tx3Fs8BcYbxMMgs2Wy" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T15:22:53.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GMyD7J2Ss1aoWZ5RbgT9" version="22.1.18" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10753" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7247,37 +7247,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-7818.349999999999" y="710" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7866.349999999999" y="720" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-8040" y="190" width="277.35" height="100" as="geometry" />
+          <mxGeometry x="-8088" y="200" width="277.35" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DBS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-8027.18" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-8075.18" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-54" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;MDB&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7936.000000000001" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-7984.000000000001" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-55" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;腾讯云&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7850.6900000000005" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-7898.6900000000005" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-56" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;在线数据平台&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-8027.180000000001" y="195" width="114" height="30" as="geometry" />
+          <mxGeometry x="-8075.180000000001" y="205" width="114" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7749.83" y="190" width="279.83" height="100" as="geometry" />
+          <mxGeometry x="-7797.83" y="200" width="279.83" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-58" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;欧拉&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7741.34" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-7789.34" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;IDEX&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7652.650000000001" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-7700.650000000001" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SuperSQL&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7565.46" y="230" width="80" height="50" as="geometry" />
+          <mxGeometry x="-7613.46" y="240" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-61" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;大数据平台&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-7741.34" y="195" width="114" height="30" as="geometry" />
+          <mxGeometry x="-7789.34" y="205" width="114" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-62" target="i3JM3Jyec6PMOWz4jKXF-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -7286,49 +7286,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-8017.61" y="390" width="508.53" height="170" as="geometry" />
+          <mxGeometry x="-8065.61" y="400" width="508.53" height="170" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-64" target="i3JM3Jyec6PMOWz4jKXF-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;敏感数据资产管理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7818.3499999999985" y="610" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7866.3499999999985" y="620" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-68" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据加密&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-8000.02" y="440" width="110" height="50" as="geometry" />
+          <mxGeometry x="-8048.02" y="450" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-69" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据脱敏&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7880.6900000000005" y="440" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7928.6900000000005" y="450" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;权限管控&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7762.650000000001" y="440" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7810.650000000001" y="450" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-71" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据水印&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-8000.02" y="500" width="110" height="50" as="geometry" />
+          <mxGeometry x="-8048.02" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-72" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;分级审批&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7880.6900000000005" y="500" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7928.6900000000005" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-73" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;下载限制&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7760.000000000001" y="500" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7808.000000000001" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-74" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据冷备&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7638.72" y="440" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7686.72" y="450" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-75" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;安全审计&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-7638.72" y="500" width="110" height="50" as="geometry" />
+          <mxGeometry x="-7686.72" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-76" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;安全管控能力&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-7996.0199999999995" y="400" width="102" height="30" as="geometry" />
+          <mxGeometry x="-8044.0199999999995" y="410" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-80" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;分类分级系统是&lt;br&gt;数据平台实现安全管控能力&lt;br&gt;的基础支撑能力&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-7652.65" y="695" width="240" height="80" as="geometry" />
+          <mxGeometry x="-7700.65" y="705" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-82" value="&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;对需要实现安全管控&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;的&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;敏感数据资产来源于分类分级系统&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-7665.650000000002" y="605" width="290" height="60" as="geometry" />
+          <mxGeometry x="-7713.650000000002" y="615" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-83" value="&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;b style=&quot;background-color: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;数据平台依托安全管控能力，来实现对敏感数据的保护&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;b style=&quot;background-color: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;比如离职员工恶意下载大量明文敏感数据，将会触发安全管控能力&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-8024.280000000002" y="130" width="550" height="60" as="geometry" />
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-83" value="&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;b style=&quot;background-color: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;比如离职员工恶意下载大量明文敏感数据，将会触发安全管控能力&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-8075.500000000001" y="140" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxdy38nskph1FegIHLTO-2" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 18px; text-align: left; background-color: initial;&quot;&gt;数据平台依托安全管控能力，来实现对敏感数据的保护&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7808.3099999999995" y="355" width="460" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
