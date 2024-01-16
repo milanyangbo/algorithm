@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:43:17.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j9gKAg5SlfVF5e7hyngK" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:45:27.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-6kF-3Qkl6SXggK71usB" version="22.1.18" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="11146" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7165,22 +7165,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;推进业务方加密数据&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-8365.789999999997" y="380" width="90" height="90" as="geometry" />
+          <mxGeometry x="-8355.459999999997" y="380" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-9" target="i3JM3Jyec6PMOWz4jKXF-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;确认业务方是否加密&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-8601.08" y="540" width="90" height="90" as="geometry" />
+          <mxGeometry x="-8612.65" y="540" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-10" target="i3JM3Jyec6PMOWz4jKXF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;业务方对敏感数据加密&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-8437.72" y="540" width="90" height="90" as="geometry" />
+          <mxGeometry x="-8422.65" y="539.5" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;权限管控，安全审计等数据&lt;br&gt;治理工作&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-8683" y="380" width="90" height="90" as="geometry" />
+          <mxGeometry x="-8690" y="380" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-22" target="i3JM3Jyec6PMOWz4jKXF-1">
           <mxGeometry relative="1" as="geometry" />
@@ -7198,16 +7198,16 @@
           <mxGeometry x="-8480" y="200" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;梳理资产与人员信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-8283.070000000002" y="360" width="150" height="30" as="geometry" />
+          <mxGeometry x="-8260.000000000002" y="360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-30" target="i3JM3Jyec6PMOWz4jKXF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-8611.41" y="700" width="110" height="50" as="geometry" />
+          <mxGeometry x="-8622.65" y="700" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-33" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;校验敏感数据是否已经加密&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-8730" y="650" width="170" height="40" as="geometry" />
+          <mxGeometry x="-8760" y="650" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-34" target="i3JM3Jyec6PMOWz4jKXF-11">
           <mxGeometry relative="1" as="geometry" />
@@ -7217,6 +7217,21 @@
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;治理工作需要依赖分类分级结果&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-8880" y="360" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-37" target="i3JM3Jyec6PMOWz4jKXF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-37" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;密钥管理系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8488.6" y="700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-38" target="i3JM3Jyec6PMOWz4jKXF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;加密插件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8375.46" y="700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-30" target="i3JM3Jyec6PMOWz4jKXF-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
