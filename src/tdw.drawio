@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T08:36:49.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MmYWuYREuqA6H_Ws6W05" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T08:37:22.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dexOXKv9d42ZfVQdJ42e" version="22.1.20" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="11487" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7152,7 +7152,7 @@
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;获取PCG敏感&lt;br&gt;数据资产&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="692.5300000000007" y="16630" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-2" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;分类分级系统是&lt;br&gt;数据安全运营工作&lt;br&gt;的基础支撑能力&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-2" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;分类分级系统是&lt;br&gt;数据安全运营工作&lt;br&gt;的基础支撑能力&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="669.7200000000012" y="16775" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-8" target="i3JM3Jyec6PMOWz4jKXF-10" edge="1">
@@ -7315,7 +7315,7 @@
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-76" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;安全管控能力&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1169.6300000000008" y="16800" width="102" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-80" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;分类分级系统是&lt;br&gt;数据平台实现安全管控能力&lt;br&gt;的基础支撑能力&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-80" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;分类分级系统是&lt;br&gt;数据平台实现安全管控能力&lt;br&gt;的基础支撑能力&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1513.0000000000007" y="17095" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-82" value="&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;对需要实现安全管控&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;的&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;敏感数据资产来源于分类分级系统&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
