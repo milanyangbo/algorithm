@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T16:38:40.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tp-BM8Lr6frbvtCEQkvq" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-20T16:40:11.916Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KI8YoN0urhXzRoNPeeQw" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11567" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11214" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7686,7 +7686,7 @@
         <mxCell id="6rEO9m44HombDbngcUSL-124" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;系统瓶颈&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="851.6100000000001" y="18280" width="189.07" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-125" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当前系统是一个TRPC Python Http服务，单节点配置4核4G&lt;br&gt;需求变更以后，线上主要面临两个问题：&lt;br&gt;1.CPU飙升到百分之100，最大扩容到50个节点，才勉强抗住&lt;br&gt;2.内存飙升且无法释放，导致内存泄漏，以至于系统不可用&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="6rEO9m44HombDbngcUSL-125" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当前系统是一个TRPC Python Http服务，单节点配置4核4G&lt;br&gt;需求变更以后，线上主要面临两个问题：&lt;br&gt;1.CPU飙升到100%，最大扩容到50个节点，才勉强抗住&lt;br&gt;2.内存飙升且无法释放，导致内存泄漏，以至于系统不可用&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="735.1800000000001" y="18370" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-126" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
