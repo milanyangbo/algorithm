@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T10:00:06.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Hi7n5YzfqQ81Xk2xaqjw" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-20T10:31:08.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l3LNIE7bihmQ9UVxURKT" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="9768" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10753" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7535,7 +7535,7 @@
           <mxGeometry x="209.00999999999996" y="18370" width="470" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-65" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="224" y="18470" width="380" height="100" as="geometry" />
+          <mxGeometry x="224" y="18470" width="380" height="134" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-65">
           <mxGeometry width="380" height="34" as="geometry" />
@@ -7591,8 +7591,31 @@
             <mxRectangle width="125" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-142" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-65">
+          <mxGeometry y="100" width="380" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-143" value="识别规则数" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-142">
+          <mxGeometry width="127" height="34" as="geometry">
+            <mxRectangle width="127" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-144" value="10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-142">
+          <mxGeometry x="127" width="128" height="34" as="geometry">
+            <mxRectangle width="128" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-145" value="400" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="6rEO9m44HombDbngcUSL-142">
+          <mxGeometry x="255" width="125" height="34" as="geometry">
+            <mxRectangle width="125" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-146" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;识别总行数=识别表数*识别行数&lt;br style=&quot;font-size: 16px;&quot;&gt;规则计算量=识别表数*识别行数*识别规则数&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-142">
+          <mxGeometry x="380" width="NaN" height="34" as="geometry">
+            <mxRectangle width="NaN" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-100" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="224" y="18630" width="380" height="100" as="geometry" />
+          <mxGeometry x="224" y="18663.75" width="380" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="6rEO9m44HombDbngcUSL-100">
           <mxGeometry width="380" height="34" as="geometry" />
@@ -7648,11 +7671,14 @@
             <mxRectangle width="125" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6rEO9m44HombDbngcUSL-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6rEO9m44HombDbngcUSL-114" target="6rEO9m44HombDbngcUSL-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-114" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;识别总行数=识别表数*识别行数&lt;br style=&quot;font-size: 16px;&quot;&gt;规则计算量=识别表数*识别行数*识别规则数&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="269.32" y="18573.75" width="335.82" height="40" as="geometry" />
+          <mxGeometry x="268.18" y="18612.49" width="335.82" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-116" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;识别总行数增加：50亿 / 1万 = 50万倍&lt;br style=&quot;font-size: 16px;&quot;&gt;规则总计算量增加：2千亿 / 10万 = 2000万倍&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="262.53000000000003" y="18740" width="340" height="50" as="geometry" />
+          <mxGeometry x="262.53000000000003" y="18773.75" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-119" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;业务需求现状&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="319.46000000000004" y="18280" width="189.07" height="50" as="geometry" />
