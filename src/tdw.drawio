@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T09:59:05.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="O2JiwDxKCbjj_fmZ7IS7" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T09:59:56.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MrBOFqRa3ijnSb4rBqMM" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="16010" dy="3737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="14282" dy="2803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6330,176 +6330,44 @@
         <mxCell id="sec4_zxM1JKS6QHmxRKi-4" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;数据安全目的：&lt;br&gt;保护用户数据隐私&lt;br&gt;避免公司数据资产泄漏&lt;br&gt;符合安全合规要求&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1409.9999999999998" y="16393" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="367.1500000000001" y="17545" width="342.13" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IDC物理机器&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="367.1500000000001" y="17555" width="108.83" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-4" target="6rEO9m44HombDbngcUSL-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;源数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="379.2800000000002" y="17610" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;目标数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="607.1000000000004" y="17610" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-7" target="6rEO9m44HombDbngcUSL-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Python脚本&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="495.27" y="17617.5" width="86" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="717.96" y="17485" width="662.77" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-10" target="6rEO9m44HombDbngcUSL-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;源数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="739.3500000000004" y="17578.75" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-12" target="6rEO9m44HombDbngcUSL-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TRPC&lt;br&gt;Python&lt;br&gt;HTTP&lt;br&gt;服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="903.3199999999997" y="17559.620000000003" width="110" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-14" target="6rEO9m44HombDbngcUSL-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;限流&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1046.9" y="17495" width="54.17" height="227.5" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;分类分级识别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1131.8999999999996" y="17578.75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;目标数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1277.230000000001" y="17578.75" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6rEO9m44HombDbngcUSL-15" target="6rEO9m44HombDbngcUSL-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1397.7400000000002" y="17485" width="680" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-20" target="6rEO9m44HombDbngcUSL-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;源数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1413.1300000000006" y="17584.75" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-22" target="6rEO9m44HombDbngcUSL-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TRPC&lt;br&gt;Python&lt;br&gt;HTTP&lt;br&gt;服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1576.1200000000003" y="17565.75" width="110" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-26" target="6rEO9m44HombDbngcUSL-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-26" target="6rEO9m44HombDbngcUSL-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-26" target="6rEO9m44HombDbngcUSL-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;限流&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1712.1200000000003" y="17501" width="54.17" height="227.5" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;分类分级识别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1817.8800000000006" y="17501" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-29" target="6rEO9m44HombDbngcUSL-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;分类分级识别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1815.4600000000005" y="17584.75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;分类分级识别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1814.2200000000007" y="17663.75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;目标数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1977.9300000000017" y="17584.75" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6rEO9m44HombDbngcUSL-30" target="6rEO9m44HombDbngcUSL-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6rEO9m44HombDbngcUSL-27" target="6rEO9m44HombDbngcUSL-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-34" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;第一个版本：&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;纯脚本开发，部署维护不方便，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;非高可用，无法承载大流量数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="367.1500000000001" y="17475" width="250" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-35" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;第二个版本：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;扫描和识别业务分离，轻扫描（一般不变动），重识别（变动较多）&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;识别业务服务化，易维护，高可用，弹性可伸缩，接受大流量&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;缺点：&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;识别业务为计算密集应用，大流量下，CPU100%，系统不可用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="724.1300000000001" y="17391" width="550" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-36" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;第三个版本：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;利用TRPC Python 多Work进程模式，实现并行计算&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;缺点：&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Python GIL限制，多线程只能跑在单核，无法充分高效利用CPU&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Python GC使用引用计数，效率不高容易内存泄漏&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;Python脚本语言，基于解析执行，本身性能不高&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1396.0700000000002" y="17375" width="530" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-38" target="6rEO9m44HombDbngcUSL-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-38" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;问题原因：&lt;br&gt;1.&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); background-color: initial;&quot;&gt;计算密集型应用&lt;br&gt;2.内存容易泄露&lt;br&gt;3.脚本语言性能瓶颈&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="698.1500000000001" y="17820" width="172.92" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;解决思路2-性能优化：&lt;br&gt;1.&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;利用多核CPU（借鉴Map Reduce思想，重点提升对单表单次的识别效率）&lt;br&gt;2.进行网络内存等调优（NIO异步网络模型，JVM G1收集器）&lt;br&gt;3.改用JAVA高级语言（JVM 即时编译器 高效优化）&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1456.9300000000003" y="17795" width="408.88" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-41" target="6rEO9m44HombDbngcUSL-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;解决思路1-改用大数据平台：&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); background-color: initial;&quot;&gt;缺点：&lt;br&gt;1.数据隐私，原始无法落地存储&lt;br&gt;2.整体流量大，但单表数据不大（取200条数据），而大数据平台是对大宽表计算，不符合使用场景&lt;br&gt;3.识别实时性高，响应延迟200毫秒左右，大数据是T+1&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="930.9500000000003" y="17800" width="443.23" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-42" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;扫描上报&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="822.3200000000002" y="17584.75" width="81" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-43" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;扫描上报&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1495.4300000000003" y="17593.75" width="81" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6rEO9m44HombDbngcUSL-44" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#990000&quot;&gt;什么是分类分级：&lt;br&gt;分类就是数据的类别，比如身份证属于个人敏感信息类别；&lt;br&gt;分级就是数据的敏感等级，分L1-L4级，L4&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px;&quot; color=&quot;#990000&quot;&gt;级&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#990000&quot;&gt;数据需要管控。&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="934.1300000000001" y="17250" width="560" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="675.66" y="18480" width="570" height="210" as="geometry" />
+          <mxGeometry x="702.53" y="17565" width="570" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-47" target="6rEO9m44HombDbngcUSL-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;源数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="684.6700000000004" y="18557.5" width="87" height="55" as="geometry" />
+          <mxGeometry x="711.5400000000004" y="17642.5" width="87" height="55" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6rEO9m44HombDbngcUSL-49" target="6rEO9m44HombDbngcUSL-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRPC&lt;br&gt;Python&lt;br&gt;HTTP&lt;br&gt;服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="836.6299999999999" y="18545" width="87.32" height="80" as="geometry" />
+          <mxGeometry x="863.4999999999999" y="17630" width="87.32" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6rEO9m44HombDbngcUSL-51" target="6rEO9m44HombDbngcUSL-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;限流&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="953.14" y="18494.99" width="48.23" height="180" as="geometry" />
+          <mxGeometry x="980.01" y="17579.99" width="48.23" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-52" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级识别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1028.8600000000001" y="18566.25" width="96.81" height="37.49" as="geometry" />
+          <mxGeometry x="1055.73" y="17651.25" width="96.81" height="37.49" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;目标数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1150.1600000000003" y="18557.49" width="87" height="55" as="geometry" />
+          <mxGeometry x="1177.0300000000002" y="17642.49" width="87" height="55" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6rEO9m44HombDbngcUSL-52" target="6rEO9m44HombDbngcUSL-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;扫描上报&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="761.2400000000002" y="18557.49" width="81" height="30" as="geometry" />
+          <mxGeometry x="788.1100000000002" y="17642.49" width="81" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-61" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;要做到将所有归属PCG的数据资产进行安全管控的前提是，&lt;br&gt;要将所有归属PCG的数据资产纳入分类分级识别，&lt;br&gt;并且要保证分类分级的覆盖率和准确率，&lt;br&gt;因此识别的表数量和规则识别计算量，都面临巨大数量级的增加&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="209.00999999999996" y="18370" width="470" height="110" as="geometry" />
+          <mxGeometry x="235.87999999999997" y="17455" width="470" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-65" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="224" y="18470" width="380" height="134" as="geometry" />
+          <mxGeometry x="250.87" y="17555" width="380" height="134" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="6rEO9m44HombDbngcUSL-65" vertex="1">
           <mxGeometry width="380" height="34" as="geometry" />
@@ -6574,12 +6442,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-146" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" parent="6rEO9m44HombDbngcUSL-142" vertex="1">
-          <mxGeometry x="380" height="34" as="geometry">
+          <mxGeometry x="380" width="NaN" height="34" as="geometry">
             <mxRectangle width="NaN" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-100" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="224" y="18663.75" width="380" height="100" as="geometry" />
+          <mxGeometry x="250.87" y="17748.75" width="380" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="6rEO9m44HombDbngcUSL-100" vertex="1">
           <mxGeometry width="380" height="34" as="geometry" />
@@ -6636,52 +6504,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-114" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;识别总行数=识别表数*识别行数&lt;br style=&quot;font-size: 16px;&quot;&gt;规则计算量=识别表数*识别行数*识别规则数&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="256.71" y="18612.49" width="323.29" height="40" as="geometry" />
+          <mxGeometry x="283.58" y="17697.49" width="323.29" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-116" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;识别总行数增加：50亿 / 1万 = 50万倍&lt;br style=&quot;&quot;&gt;规则总计算量增加：2千亿 / 10万 = 2000万倍&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="248.43000000000004" y="18768.75" width="380" height="60" as="geometry" />
+          <mxGeometry x="275.3" y="17853.75" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-119" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;需求痛点&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="319.46000000000004" y="18280" width="189.07" height="50" as="geometry" />
+          <mxGeometry x="346.33000000000004" y="17365" width="189.07" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-123" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="574.6600000000001" y="18275" width="217.87" height="60" as="geometry" />
+          <mxGeometry x="601.5300000000001" y="17360" width="217.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-124" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;系统瓶颈&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="851.6100000000001" y="18280" width="189.07" height="50" as="geometry" />
+          <mxGeometry x="878.4800000000001" y="17365" width="189.07" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-125" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当前系统是一个TRPC Python Http服务，单节点配置4核4G&lt;br&gt;需求变更以后，线上主要面临两个问题：&lt;br&gt;1.CPU飙升到100%，最大扩容到50个节点，才勉强抗住&lt;br&gt;2.内存飙升且无法释放，导致内存泄漏，以至于系统不可用&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="735.1800000000001" y="18370" width="450" height="90" as="geometry" />
+          <mxGeometry x="762.0500000000001" y="17455" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-126" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100.3100000000002" y="18275" width="217.87" height="60" as="geometry" />
+          <mxGeometry x="1127.18" y="17360" width="217.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-127" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;问题分析&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360.8099999999997" y="18280" width="189.07" height="50" as="geometry" />
+          <mxGeometry x="1387.6799999999996" y="17365" width="189.07" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-130" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1580.0000000000005" y="18275" width="217.87" height="60" as="geometry" />
+          <mxGeometry x="1606.8700000000003" y="17360" width="217.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-131" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;解决思路&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1829.05" y="18280" width="189.07" height="50" as="geometry" />
+          <mxGeometry x="1855.9199999999998" y="17365" width="189.07" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-134" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1.大流量，每日50亿行数据&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1349.14" y="18386.25" width="213.61" height="60" as="geometry" />
+          <mxGeometry x="1376.01" y="17471.25" width="213.61" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-135" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2.大计算量，每日2千亿识别&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1350.5200000000002" y="18481.25" width="213.61" height="60" as="geometry" />
+          <mxGeometry x="1377.39" y="17566.25" width="213.61" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-136" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3.Python解释型语言性能瓶颈&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1350.5200000000002" y="18578.74" width="213.61" height="60" as="geometry" />
+          <mxGeometry x="1377.39" y="17663.74" width="213.61" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-137" value="&lt;font color=&quot;#990000&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1.&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 16px; background-color: initial;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;网络内存调优（NIO异步网络模型，JVM G1收集器）&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1772.1200000000001" y="18385" width="245" height="60" as="geometry" />
+          <mxGeometry x="1798.99" y="17470" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-138" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 16px;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot; color=&quot;#990000&quot;&gt;2.流量控制，&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 16px; background-color: initial;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot; color=&quot;#990000&quot;&gt;多线程多核并行计算（ForkJoin工作窃取，将无序数据实现有序的分治编排计算）&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1772.1200000000001" y="18481.25" width="245" height="60" as="geometry" />
+          <mxGeometry x="1798.99" y="17566.25" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-139" value="&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-size: 16px; background-color: initial;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot; color=&quot;#990000&quot;&gt;3.JAVA高级语言（JVM即时编译，并发编程内存模型）&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1773.1200000000001" y="18578.74" width="245" height="60" as="geometry" />
+          <mxGeometry x="1799.99" y="17663.74" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmHy2wcPiMGks8K5_ZEI-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Rinbuffer读写指针移动&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1601.29" y="13002.999999999998" width="170" height="30" as="geometry" />
