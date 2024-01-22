@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T12:29:12.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I1Yg66OyIJVODTUWxHBs" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T14:14:48.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dd_FjSTO32j0CyIsYnU_" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10982" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11857" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4751,7 +4751,7 @@
           <mxGeometry x="2478.2799999999997" y="9348.26" width="355" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-118" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1765.11" y="9737.26" width="1019.01" height="231" as="geometry" />
+          <mxGeometry x="1765.11" y="9737.26" width="1024.89" height="231" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-208" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -4956,11 +4956,11 @@
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-252" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;采用“标记整理”算法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1879.5299999999997" y="9778.01" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-253" value="&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：自适应调整年轻和老年代大小，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;吞吐量优先和CPU资源敏感场景&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;缺点：会有GC大停顿的问题&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;适合后代定时任务，不用考虑停顿和延迟&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2491.26" y="9800.01" width="300" height="110" as="geometry" />
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-253" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：自适应调整年轻和老年代大小，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;吞吐量优先和CPU资源敏感场景&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;缺点：会有GC大停顿的问题&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;适合后代定时任务，不用考虑停顿和延迟&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2491.26" y="9800.01" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-254" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1765.11" y="9972.51" width="1109.01" height="223.5" as="geometry" />
+          <mxGeometry x="1765.11" y="9972.51" width="1114.89" height="223.5" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-256" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -5129,8 +5129,8 @@
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-297" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;“延迟优先”并发收集器&amp;nbsp;&lt;/font&gt;CMS&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1780.87" y="9979.26" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-300" value="&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：并发收集，低停顿&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;缺点：CPU资源敏感，抢占用户线程资源，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;浮动垃圾，容器导致Full GC，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;Full GC使用Serial Old单线程回收，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;GC时间不可控&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;适合小内存&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(153, 0, 0);&quot;&gt;、&lt;/b&gt;&lt;b&gt;延迟敏感的服务端应用&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;线上配置：4核4G堆内存&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2574.9700000000003" y="9995.26" width="320" height="180" as="geometry" />
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-300" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：并发收集，低停顿&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;缺点：CPU资源敏感，抢占用户线程资源，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;浮动垃圾，容器导致Full GC，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Full GC使用Serial Old单线程回收，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;GC时间不可控&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;适合小内存&lt;/b&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(153, 0, 0);&quot;&gt;、&lt;/b&gt;&lt;b&gt;延迟敏感的服务端应用&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;线上配置：4核4G堆内存&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2573.7700000000004" y="9989.26" width="330" height="190" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-304" value="并发标记" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1987.4899999999998" y="10090.76" width="62.03" height="20" as="geometry" />
@@ -5283,7 +5283,7 @@
           <mxGeometry x="2314.08" y="10009.26" width="255.7" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-386" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1764.1399999999999" y="10202.51" width="1569.98" height="511.5" as="geometry" />
+          <mxGeometry x="1764.14" y="10202.51" width="1585.86" height="511.5" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-387" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-388" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -5440,8 +5440,8 @@
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-422" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;“回收优先”收集器&amp;nbsp;&lt;/font&gt;G1&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1769.26" y="10207.26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-423" value="&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：并发和并行结合，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;可预测的GC回收停顿时间，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;不会产生浮动垃圾。&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;缺点：需要额外内存和CPU资源计算&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;对象跨代&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial; color: rgb(153, 0, 0);&quot;&gt;引用关系&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b style=&quot;background-color: initial; color: rgb(153, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;Full GC使用Serial Old单线程回收（后期版本有改进）&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;针对具有大内存、多处理器、低延迟的服务端应用&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;符合分类分级场景，日均“大流量”（50亿条表数据）&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;和“大计算量”（千亿级规模的识别计算）&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b style=&quot;&quot;&gt;线上配置：至少4-8核8G以上&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font style=&quot;font-size: 15.5px;&quot; color=&quot;#990000&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15.5px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;&lt;b&gt;分类分级配置：10核10G&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2954.12" y="10320.76" width="400" height="270" as="geometry" />
+        <mxCell id="eNEwvFJlHKa5ZDA3M9LU-423" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;优点：并发和并行结合，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;可预测的GC回收停顿时间，&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;不会产生浮动垃圾。&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;缺点：需要额外内存和CPU资源计算&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;对象跨代&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial; color: rgb(153, 0, 0);&quot;&gt;引用关系&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;background-color: initial; color: rgb(153, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Full GC使用Serial Old单线程回收（后期版本有改进）&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;针对具有大内存、多处理器、低延迟的服务端应用&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;符合分类分级场景，日均“大流量”（50亿条表数据）&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b&gt;和“大计算量”（千亿级规模的识别计算）&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b style=&quot;&quot;&gt;线上配置：至少4-8核8G以上&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#990000&quot;&gt;&lt;b style=&quot;&quot;&gt;分类分级配置：10核10G&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2954.12" y="10315.76" width="410" height="280" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-424" value="并发标记" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1986.31" y="10448.26" width="62.03" height="20" as="geometry" />
@@ -5697,7 +5697,7 @@
           <mxGeometry x="2704.05" y="10196.01" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-634" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2884.12" y="9755.01" width="440.01" height="410" as="geometry" />
+          <mxGeometry x="854.1499999999996" y="9408.26" width="440.01" height="410" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-652" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-654" target="eNEwvFJlHKa5ZDA3M9LU-661" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5706,13 +5706,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-654" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Serial&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2917.8899999999994" y="9890.51" width="83" height="42" as="geometry" />
+          <mxGeometry x="887.9199999999992" y="9543.76" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-655" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-656" target="eNEwvFJlHKa5ZDA3M9LU-662" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-656" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ParNew&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3034.4799999999996" y="9890.51" width="83" height="42" as="geometry" />
+          <mxGeometry x="1004.5099999999993" y="9543.76" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-657" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-659" target="eNEwvFJlHKa5ZDA3M9LU-662" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5721,37 +5721,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-659" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Parallel&lt;br&gt;Scavenge&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3145.5199999999995" y="9890.51" width="83" height="42" as="geometry" />
+          <mxGeometry x="1115.5499999999993" y="9543.76" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-660" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="eNEwvFJlHKa5ZDA3M9LU-661" target="eNEwvFJlHKa5ZDA3M9LU-662" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-661" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;CMS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2917.8900000000003" y="10037.51" width="83" height="42" as="geometry" />
+          <mxGeometry x="887.9200000000001" y="9690.76" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-662" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Serial Old(MSC)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3034.4799999999996" y="10080.76" width="83" height="42" as="geometry" />
+          <mxGeometry x="1004.5099999999993" y="9734.01" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-663" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Parallel Old&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3145.5199999999995" y="10037.51" width="83" height="42" as="geometry" />
+          <mxGeometry x="1115.5499999999993" y="9690.76" width="83" height="42" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-664" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;G1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3244.41" y="9939.51" width="44.02" height="90" as="geometry" />
+          <mxGeometry x="1214.4399999999996" y="9592.76" width="44.02" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-665" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2904.21" y="9984.43" as="sourcePoint" />
-            <mxPoint x="3294.21" y="9984.43" as="targetPoint" />
+            <mxPoint x="874.2399999999998" y="9637.68" as="sourcePoint" />
+            <mxPoint x="1264.2399999999998" y="9637.68" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-666" value="Young gencration" style="text;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="3020.51" y="9832.51" width="130" height="40" as="geometry" />
+          <mxGeometry x="990.54" y="9485.76" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-667" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tenured generation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3173.18" y="10116.01" width="140" height="30" as="geometry" />
+          <mxGeometry x="1143.2099999999996" y="9769.26" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eNEwvFJlHKa5ZDA3M9LU-668" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JAVA虚拟机垃圾收集器分布&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2892.12" y="9777.76" width="200" height="30" as="geometry" />
+          <mxGeometry x="862.1499999999996" y="9431.01" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O1-vvjdfoDQqNKkFZlfA-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1747.82" y="10855.26" width="679" height="120" as="geometry" />
@@ -6724,6 +6724,87 @@
         </mxCell>
         <mxCell id="ocRwjzRaLEo4z0zVxAW0-74" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;OS&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4029.199999999999" y="10521" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-96" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2904.97" y="9890.76" width="445" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-97" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2916.8099999999995" y="9980.78" width="409.03000000000065" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-97">
+          <mxGeometry width="409.03000000000065" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-99" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-98">
+          <mxGeometry width="159" height="40" as="geometry">
+            <mxRectangle width="159" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-100" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;CMS GC&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-98">
+          <mxGeometry x="159" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-101" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;G1 GC&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-98">
+          <mxGeometry x="279" width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-97">
+          <mxGeometry y="40" width="409.03000000000065" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-103" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Throughput&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-102">
+          <mxGeometry width="159" height="40" as="geometry">
+            <mxRectangle width="159" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-104" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;98.635%&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-102">
+          <mxGeometry x="159" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-105" value="&lt;b&gt;99.725%&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-102">
+          <mxGeometry x="279" width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-97">
+          <mxGeometry y="80" width="409.03000000000065" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-107" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Avg GC Pause Time&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-106">
+          <mxGeometry width="159" height="40" as="geometry">
+            <mxRectangle width="159" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-108" value="362 ms" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-106">
+          <mxGeometry x="159" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-109" value="&lt;b&gt;211 ms&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-106">
+          <mxGeometry x="279" width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-110" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-97">
+          <mxGeometry y="120" width="409.03000000000065" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-111" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Min/Max (Young GC)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-110">
+          <mxGeometry width="159" height="40" as="geometry">
+            <mxRectangle width="159" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-112" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;70.0 ms/560 ms&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-110">
+          <mxGeometry x="159" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-113" value="&lt;b&gt;70.0 ms/390 ms&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;align=left;" vertex="1" parent="ocRwjzRaLEo4z0zVxAW0-110">
+          <mxGeometry x="279" width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ocRwjzRaLEo4z0zVxAW0-114" value="&lt;b&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;6G堆内存进行压测分析，G1在吞吐量，平均停顿时间，最小最大GC时间，数据都好于CMS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2922.2999999999997" y="9927.28" width="397.81" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
