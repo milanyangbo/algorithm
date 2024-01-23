@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T15:21:51.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I4aGZ6ANP_fv9PU86wWt" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T15:24:21.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PEMNhS_gLcwezwcJM5Cl" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10558" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5982,7 +5982,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;(1)&lt;br&gt;获取PCG敏感&lt;br&gt;数据资产&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="2016.6500000000005" y="11707.26" width="90" height="90" as="geometry" />
+          <mxGeometry x="2016.65" y="11707.26" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-2" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;分类分级系统是&lt;br&gt;数据安全运营工作&lt;br&gt;的基础支撑能力&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1993.840000000001" y="11852.26" width="170" height="80" as="geometry" />
@@ -5991,46 +5991,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(2)&lt;br&gt;推进业务方加密数据&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="2189.300000000002" y="11847.26" width="90" height="90" as="geometry" />
+          <mxGeometry x="2189.300000000002" y="11847.26" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-9" target="i3JM3Jyec6PMOWz4jKXF-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(4)&lt;br&gt;确认业务方是否加密&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1926.6500000000005" y="12007.26" width="90" height="90" as="geometry" />
+          <mxGeometry x="1926.6500000000005" y="12007.26" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-10" target="i3JM3Jyec6PMOWz4jKXF-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(3)&lt;br&gt;业务方对敏感数据加密&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="2116.6500000000005" y="12006.76" width="90" height="90" as="geometry" />
+          <mxGeometry x="2116.6500000000005" y="12006.76" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(5)&lt;br&gt;权限管控，安全审计等数据&lt;br&gt;治理工作&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1849.3000000000002" y="11847.26" width="90" height="90" as="geometry" />
+          <mxGeometry x="1849.3000000000002" y="11847.26" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-22" target="i3JM3Jyec6PMOWz4jKXF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="2006.6500000000005" y="11607.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="2008.1300000000006" y="11607.26" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-23" target="i3JM3Jyec6PMOWz4jKXF-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="2329.3" y="11867.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="2329.55" y="11869.26" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;梳理敏感数据资产分布&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2059.3" y="11667.26" width="160" height="30" as="geometry" />
+          <mxGeometry x="2062.29" y="11667.26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;梳理资产与人员信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2279.2999999999984" y="11827.26" width="150" height="30" as="geometry" />
+          <mxGeometry x="2276.8199999999983" y="11837.26" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-30" target="i3JM3Jyec6PMOWz4jKXF-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1916.6500000000005" y="12167.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="1918.4200000000005" y="12167.26" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-33" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;校验敏感数据是否已经加密&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1789.3000000000002" y="12107.26" width="170" height="40" as="geometry" />
@@ -6039,35 +6039,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1689.3000000000002" y="11867.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="1689.3000000000002" y="11869.26" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;治理工作需要依赖分类分级&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1689.3000000000002" y="11837.26" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-37" target="i3JM3Jyec6PMOWz4jKXF-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2105.3" y="12137.26" />
-              <mxPoint x="2161.3" y="12137.26" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="yH2Wp1B3KpuDSNEO9uaM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-37" target="i3JM3Jyec6PMOWz4jKXF-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-37" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;密钥管理系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2050.7" y="12167.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="2049.52" y="12167.26" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-38" target="i3JM3Jyec6PMOWz4jKXF-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2219.3" y="12137.26" />
-              <mxPoint x="2161.3" y="12137.26" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="yH2Wp1B3KpuDSNEO9uaM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i3JM3Jyec6PMOWz4jKXF-38" target="i3JM3Jyec6PMOWz4jKXF-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;加密插件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2163.840000000001" y="12167.26" width="110" height="50" as="geometry" />
+          <mxGeometry x="2164.940000000001" y="12167.26" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-45" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;免业务改造代码加解密方案&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2173.5099999999993" y="12107.26" width="170" height="40" as="geometry" />
+          <mxGeometry x="2176.129999999999" y="12107.26" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-46" target="i3JM3Jyec6PMOWz4jKXF-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
