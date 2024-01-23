@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T15:24:21.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PEMNhS_gLcwezwcJM5Cl" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T15:24:50.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OmP2EmoQST-EvJ4odX_2" version="22.1.21" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="11167" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11008" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6005,7 +6005,7 @@
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(3)&lt;br&gt;业务方对敏感数据加密&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2116.6500000000005" y="12006.76" width="94" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="i3JM3Jyec6PMOWz4jKXF-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(5)&lt;br&gt;权限管控，安全审计等数据&lt;br&gt;治理工作&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="i3JM3Jyec6PMOWz4jKXF-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(5)&lt;br&gt;权限，审计等数据治理工作&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1849.3000000000002" y="11847.26" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="i3JM3Jyec6PMOWz4jKXF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i3JM3Jyec6PMOWz4jKXF-22" target="i3JM3Jyec6PMOWz4jKXF-1" edge="1">
