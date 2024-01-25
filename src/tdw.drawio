@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T13:17:32.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CU6ism4gtil5PludbRCQ" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T13:19:04.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dyTryhftQznLTxJW_X9h" version="23.0.1" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
     <mxGraphModel dx="11146" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6177,16 +6177,16 @@
           <mxGeometry x="1670.6899999999998" y="11482.26" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aNTVesJN0-M6Z4_PX5Hl-2" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;为什么需要分类分级：&lt;br&gt;构建以分类分级为基础的&lt;br&gt;数据安全运营工作&lt;br&gt;和数据平台的安全管控能力&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2631.2900000000004" y="11467.26" width="240" height="100" as="geometry" />
+          <mxGeometry x="2637.4600000000005" y="11467.26" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aNTVesJN0-M6Z4_PX5Hl-3" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2129.1900000000005" y="11482.26" width="88.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sec4_zxM1JKS6QHmxRKi-2" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2853.270000000001" y="11482.26" width="88.12" height="60" as="geometry" />
+          <mxGeometry x="2860.370000000001" y="11482.26" width="88.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sec4_zxM1JKS6QHmxRKi-4" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;数据安全目的：&lt;br&gt;保护用户数据隐私&lt;br&gt;避免公司数据资产泄漏&lt;br&gt;符合安全合规要求&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2950.1400000000003" y="11467.26" width="200" height="100" as="geometry" />
+          <mxGeometry x="2958.5800000000004" y="11467.26" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6rEO9m44HombDbngcUSL-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2026.6499999999999" y="12642.26" width="570" height="210" as="geometry" />
@@ -6814,11 +6814,11 @@
         <mxCell id="ocRwjzRaLEo4z0zVxAW0-114" value="&lt;b&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 16px;&quot;&gt;6G堆内存进行压测分析，G1在吞吐量，平均停顿时间，最小最大GC时间，数据都好于CMS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2924.3799999999997" y="9897.01" width="397.81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D_jKU1Dz9Tyx-DIUbIIt-1" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;那些数据需要分类分级：&lt;br&gt;包括不限于关系型数据库（mysql），&lt;br&gt;KV数据库（redis），大数据（Hive）&lt;br&gt;等数据资产&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="D_jKU1Dz9Tyx-DIUbIIt-1" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;哪些数据需要分类分级：&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;包括不限于关系型数据库（mysql）&lt;/b&gt;&lt;b&gt;、&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;KV数据库（redis）&lt;/b&gt;&lt;b&gt;、&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;大数据（hive）&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;等数据资产&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2230.3999999999996" y="11467.26" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="D_jKU1Dz9Tyx-DIUbIIt-2" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2535.3900000000003" y="11482.26" width="88.12" height="60" as="geometry" />
+          <mxGeometry x="2536.1700000000005" y="11482.26" width="88.12" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
