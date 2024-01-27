@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T13:42:07.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UGxRp7DrerJr3p5K9AMO" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T13:54:49.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="E7MWcT3euqEIFBz3PyRH" version="23.0.1" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10650" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10404" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6819,6 +6819,9 @@
         </mxCell>
         <mxCell id="D_jKU1Dz9Tyx-DIUbIIt-2" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2536.1700000000005" y="11482.26" width="88.12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U_XRIrYlgkPL8KZXUTD7-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;分类分级已开源共享，包括不限于WXG/运营平台中心，TEG/安全平台部，&lt;br&gt;CSIG/医疗健康事业部，腾讯音乐/TME基础架构部等部门在使用&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2225.77" y="13128" width="490" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
