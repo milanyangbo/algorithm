@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T14:50:52.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vl98akCRRPzv9U7GBxOM" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T14:59:44.468Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_6PQiFGvRWZC077wuQAR" version="23.0.2" type="github">
   <diagram id="_NVqnbQQ9h0dMKhQ7ydW" name="Page-1">
-    <mxGraphModel dx="10753" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10017" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6852,6 +6852,15 @@
         </mxCell>
         <mxCell id="WEiqwE_TfVgjVtAkgcBF-8" value="&lt;font color=&quot;#990000&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Jmeter压测&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4466.75" y="10408.26" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEiqwE_TfVgjVtAkgcBF-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#990000&quot;&gt;分类分级已开源共享，并且被多个BG和部门使用&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4058.77" y="12826.01" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEiqwE_TfVgjVtAkgcBF-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4244.47" y="12866.01" as="sourcePoint" />
+            <mxPoint x="4244.47" y="12916.01" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
