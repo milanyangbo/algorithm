@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="3311" dy="2739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2239,10 +2239,10 @@
           <mxGeometry x="-340" y="1630" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-7" value="&lt;font color=&quot;#97d077&quot;&gt;基于ProjectId纬度的限流策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-231" y="1629" width="180" height="30" as="geometry" />
+          <mxGeometry x="-231" y="1589" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;单纯的限流，无法处理系统本身或者下游链路超负载问题，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;比如CPU100%，但是流量没有增加，接口超时率飙升。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;此时可以考虑使用“熔断方式”，即将接口超时作为一种错误&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;响应，直接错误返回&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="1659" width="340" height="90" as="geometry" />
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;熔断：单纯的限流，无法处理系统本身或者下游链路超负载问题，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;比如CPU100%，但是流量没有增加，接口超时率飙升。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;此时可以考虑使用“熔断方式”，即将接口超时作为一种错误&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;响应，直接错误返回&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-229" y="1659" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="spjUK0BMCjkrFvdMDxWn-9" target="spjUK0BMCjkrFvdMDxWn-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2324,7 +2324,7 @@
           <mxGeometry x="-50" y="2048.9" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-35" value="疑问点：非走北极星调用，怎么实现限流和熔断，需考虑在在业务层统一实现？" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-223" y="1739" width="263" height="30" as="geometry" />
+          <mxGeometry x="-219.5" y="1742.06" width="263" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-36" value="redis 集群" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="1780" width="120" height="80" as="geometry" />
@@ -2355,6 +2355,12 @@
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-49" value="&lt;font color=&quot;#f19c99&quot;&gt;1.将远程缓存存改为本地缓存&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.增加熔断机制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.增加降级或者熔断情况下，主动触发sdk容灾&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;4.调整SDK容灾文件格式&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="414" y="2011" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pVOyetQi-wsQMwqocvCe-1" value="&lt;font color=&quot;#f19c99&quot;&gt;限流：&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.总得限流和项目限流额度要重新评估&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.需要考虑加上核心接口级别的限流&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-219.5" y="1625.94" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVOyetQi-wsQMwqocvCe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.522;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pVOyetQi-wsQMwqocvCe-1" target="pVOyetQi-wsQMwqocvCe-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
