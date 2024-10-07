@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2134" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2244,8 +2244,27 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;单纯的限流，无法处理系统本身或者下游链路超负载问题，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;比如CPU100%，但是流量没有增加，接口超时率飙升。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;此时可以考虑使用“熔断方式”，即将接口超时作为一种错误&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;响应，直接错误返回&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-233" y="1659" width="340" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="spjUK0BMCjkrFvdMDxWn-9" target="spjUK0BMCjkrFvdMDxWn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="spjUK0BMCjkrFvdMDxWn-9" target="spjUK0BMCjkrFvdMDxWn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-409" y="1820" />
+              <mxPoint x="-290" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-9" value="opanapi sz节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-464.5" y="1920" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="spjUK0BMCjkrFvdMDxWn-10" target="spjUK0BMCjkrFvdMDxWn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-159" y="1820" />
+              <mxPoint x="-290" y="1820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-10" value="opanapi 广州节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-214.5" y="1920" width="110" height="60" as="geometry" />
@@ -2299,13 +2318,25 @@
           <mxGeometry x="-50" y="2046.5400000000002" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-32" value="&lt;font color=&quot;#f19c99&quot;&gt;不排除在极端情况，mysql过载，此时需要对&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;“&lt;/font&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;非核心“接&lt;/span&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;口进行“降级处理”&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="2117.54" width="260" height="40" as="geometry" />
+          <mxGeometry x="-51" y="2115.54" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-33" value="&lt;font color=&quot;#97d077&quot;&gt;服务端调用mysql需配置连接池和超时时间&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="1994.64" width="250" height="30" as="geometry" />
+          <mxGeometry x="-51" y="2009.8500000000001" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-35" value="疑问点：非走北极星调用，怎么实现限流和熔断，需考虑在在业务层统一实现？" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-223" y="1739" width="263" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-36" value="redis 集群" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-37" value="8分片 32G&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1749" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-38" value="&lt;font color=&quot;#f19c99&quot;&gt;观察云上监控，redis内存和负载，使用率都很低，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;因此建议，降远程缓存直接改成“本次缓存”&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.本地内存无需网络IO，更快&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.本地内存无需序列化，不消耗CPU资源&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.减少外部中间件依赖，任何中间件都有潜在风险&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-753" y="1880.14" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-39" value="绿色：表示已经处理&lt;div&gt;红色：表示需要优化&lt;/div&gt;&lt;div&gt;黄色：表示建议&lt;/div&gt;&lt;div&gt;白色：表示疑问点&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1550.18" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
