@@ -2245,19 +2245,19 @@
           <mxGeometry x="-233" y="1659" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-9" value="opanapi sz节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1830" width="110" height="60" as="geometry" />
+          <mxGeometry x="-464.5" y="1920" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-10" value="opanapi 广州节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1830" width="110" height="60" as="geometry" />
+          <mxGeometry x="-214.5" y="1920" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-11" value="&amp;nbsp; &amp;nbsp;mysql&lt;div&gt;&amp;nbsp;主实例&amp;nbsp;&lt;/div&gt;&lt;div&gt;深圳&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="2040" width="80" height="75" as="geometry" />
+          <mxGeometry x="-315" y="2151.5" width="80" height="75" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-16" value="&amp;nbsp; &amp;nbsp;mysql&lt;div&gt;&amp;nbsp;备份实例&amp;nbsp;&lt;/div&gt;&lt;div&gt;广州&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-185" y="1944.14" width="80" height="75" as="geometry" />
+          <mxGeometry x="-199.5" y="2048.04" width="80" height="75" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-17" value="&amp;nbsp; &amp;nbsp;mysql&lt;div&gt;&amp;nbsp;只读实例&amp;nbsp;&lt;/div&gt;&lt;div&gt;深圳&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-435" y="1945" width="80" height="75" as="geometry" />
+          <mxGeometry x="-449.5" y="2048.9" width="80" height="75" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="spjUK0BMCjkrFvdMDxWn-9" target="spjUK0BMCjkrFvdMDxWn-17">
           <mxGeometry relative="1" as="geometry" />
@@ -2266,10 +2266,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-21" value="读数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-396.5" y="1910.14" width="60" height="30" as="geometry" />
+          <mxGeometry x="-411" y="2000.14" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-22" value="写数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1910.14" width="60" height="30" as="geometry" />
+          <mxGeometry x="-154.5" y="2000.14" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="spjUK0BMCjkrFvdMDxWn-11" target="spjUK0BMCjkrFvdMDxWn-17">
           <mxGeometry relative="1" as="geometry" />
@@ -2284,22 +2284,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-27" value="写数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-265" y="1958" width="60" height="30" as="geometry" />
+          <mxGeometry x="-279.5" y="2061.9" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-28" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;8核16G" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-130.5" y="1975.14" width="90" height="30" as="geometry" />
+          <mxGeometry x="-145" y="2079.0400000000004" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-29" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;8核16G" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-315.5" y="2117.85" width="90" height="30" as="geometry" />
+          <mxGeometry x="-330" y="2221.75" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-30" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;8核16G&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-503" y="1971.64" width="90" height="40" as="geometry" />
+          <mxGeometry x="-517.5" y="2075.5400000000004" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-31" value="&lt;font color=&quot;#994c00&quot;&gt;观察云上监控，mysql30天cpu平均使用率，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#994c00&quot;&gt;不超过15%，其他指标也偏低，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#994c00&quot;&gt;当前mysql配置8核16G，有些浪费&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1890" width="260" height="60" as="geometry" />
+          <mxGeometry x="-50" y="2046.5400000000002" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-32" value="&lt;font color=&quot;#f19c99&quot;&gt;不排除在极端情况，mysql过载，此时需要对&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;“&lt;/font&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;非核心“接&lt;/span&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;口进行“降级处理”&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1961.64" width="260" height="40" as="geometry" />
+          <mxGeometry x="-50" y="2117.54" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-33" value="&lt;font color=&quot;#97d077&quot;&gt;服务端调用mysql需配置连接池和超时时间&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1994.64" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-35" value="疑问点：非走北极星调用，怎么实现限流和熔断，需考虑在在业务层统一实现？" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="1739" width="263" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
