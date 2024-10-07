@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2380" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2288" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2341,11 +2341,14 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-43" value="&lt;font color=&quot;#97d077&quot;&gt;服务端的配置从2核4G，升级到4核4G。深圳&lt;/font&gt;&lt;span style=&quot;color: rgb(151, 208, 119); background-color: initial;&quot;&gt;广州，各从2节点扩大到4节点。&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-63" y="1830.14" width="430" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-44" value="&lt;font color=&quot;#f19c99&quot;&gt;服务端的过载，应考虑峰值情况（事故往往是突发事件造成），&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;大概压测标准是：&lt;/font&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;线上单节点4核4G,&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;QPS2500-3000左右，CPU&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;最大&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;使用率&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;在70以内，成功率98以上。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;如果不行，需要考虑增加节点&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-63" y="1859.9999999999998" width="360" height="70" as="geometry" />
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-44" value="&lt;font color=&quot;#f19c99&quot;&gt;服务端的过载，应考虑峰值情况（事故往往是突发事件造成），&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;大概压准是：&lt;/font&gt;&lt;span style=&quot;color: rgb(241, 156, 153); background-color: initial;&quot;&gt;线上单节点4核4G，&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;QPS2500-3000左右，CPU&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;最大&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;使用率&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;在75以内，成功率98以上。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(241, 156, 153);&quot;&gt;如果不行，需要考虑增加节点&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="1859.9999999999998" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-45" value="&lt;font color=&quot;#f19c99&quot;&gt;如果线上事故，检查mysql和redis，都没过载情况，应及时进行线上扩容，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;一次扩容单区域两个节点，再屏蔽问题节点流量，用户后续故障分析&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-63" y="1935.64" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-46" value="&lt;font color=&quot;#f19c99&quot;&gt;接口重大变更，需进行压测。压测标准&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="1980" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
