@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2601" dy="2339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1448" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2332,8 +2332,8 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-37" value="8分片 32G&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-630" y="1749" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-38" value="&lt;font color=&quot;#f19c99&quot;&gt;观察云上监控，redis内存和负载，使用率都很低，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;因此建议，降远程缓存直接改成“本次缓存”&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.本地内存无需网络IO，更快&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.本地内存无需序列化，不消耗CPU资源&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.减少外部中间件依赖，任何中间件都有潜在风险&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-753" y="1880.14" width="290" height="90" as="geometry" />
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-38" value="&lt;font color=&quot;#f19c99&quot;&gt;观察云上监控，redis内存和负载，使用率都很低，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;因此建议，降远程缓存直接改成“本次缓存”&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.本地内存无需网络IO，更快&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.本地内存无需序列化（或用PB），不消耗CPU资源&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.减少外部中间件依赖，任何中间件都有潜在风险&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-763" y="1880.14" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-39" value="绿色：表示已经处理&lt;div&gt;红色：表示需要优化&lt;/div&gt;&lt;div&gt;蓝色：表示建议&lt;/div&gt;&lt;div&gt;黑色：表示疑问点&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1550.18" width="130" height="70" as="geometry" />
