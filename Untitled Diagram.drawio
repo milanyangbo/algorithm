@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="1747" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="2256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2287,7 +2287,7 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-21" value="读数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-411" y="2000.14" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-22" value="写数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-22" value="读数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-154.5" y="2000.14" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="spjUK0BMCjkrFvdMDxWn-11" target="spjUK0BMCjkrFvdMDxWn-17" edge="1">
@@ -2335,7 +2335,7 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-38" value="&lt;font color=&quot;#f19c99&quot;&gt;观察云上监控，redis内存和负载，使用率都很低，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;因此建议，降远程缓存直接改成“本次缓存”&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.本地内存无需网络IO，更快&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.本地内存无需序列化（或用PB），不消耗CPU资源&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.减少外部中间件依赖，任何中间件都有潜在风险&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-763" y="1880.14" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-39" value="绿色：表示已经处理&lt;div&gt;红色：表示需要优化&lt;/div&gt;&lt;div&gt;蓝色：表示建议&lt;/div&gt;&lt;div&gt;黑色：表示疑问点&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-39" value="&lt;b&gt;绿色：表示已经处理&lt;/b&gt;&lt;div&gt;&lt;b&gt;红色：表示需要优化&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;蓝色：表示建议&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;黑色：表示疑问点&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-720" y="1550.18" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-43" value="&lt;font color=&quot;#97d077&quot;&gt;服务端的配置从2核4G，升级到4核4G。深圳&lt;/font&gt;&lt;span style=&quot;color: rgb(151, 208, 119); background-color: initial;&quot;&gt;广州，各从2节点扩大到3节点。&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -2353,11 +2353,14 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-48" value="鉴权服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1927.64" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-49" value="&lt;font color=&quot;#f19c99&quot;&gt;1.将远程缓存存改为本地缓存&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.增加熔断机制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.增加降级或者熔断情况下，主动触发sdk容灾&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;4.调整SDK容灾文件格式&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="414" y="2011" width="270" height="70" as="geometry" />
+        <mxCell id="spjUK0BMCjkrFvdMDxWn-49" value="&lt;font color=&quot;#f19c99&quot;&gt;1.将远程缓存存改为本地缓存&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.增加熔断机制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;3.增加降级或者熔断情况下，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;4.当服务过载，需要主动触发sdk容灾&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;5.调整SDK容灾文件格式&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="414" y="2001" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pVOyetQi-wsQMwqocvCe-1" value="&lt;font color=&quot;#f19c99&quot;&gt;限流：&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.总得限流和项目限流额度要重新评估&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.需要考虑加上核心接口级别的限流&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pVOyetQi-wsQMwqocvCe-1" value="&lt;font color=&quot;#f19c99&quot;&gt;限流：&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.总得限流和项目限流额度要重新评估？&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.需要考虑加上核心接口级别的限流&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-219.5" y="1625.94" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WvCTEz5vpfYa0PikKnuL-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;疑问点：非核心接口降级，可能减少db压力有限？&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="2194.59" width="450" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
