@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2483" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1684" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2421,7 +2421,7 @@
           <mxGeometry x="274.00000000000006" y="1469.38" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ub95xacG0pPpV-EPUlRW-39" value="openapi sz1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="1817.56" width="70.5" height="40" as="geometry" />
+          <mxGeometry x="234" y="1820.97" width="70.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ub95xacG0pPpV-EPUlRW-40" value="openapi sz2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="341.9100000000001" y="1817.56" width="70.5" height="40" as="geometry" />
