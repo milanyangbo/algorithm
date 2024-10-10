@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2738" dy="2377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2288" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2362,8 +2362,99 @@
         <mxCell id="jXWj-Jjdn6jRvKLF5MqA-1" value="&lt;font color=&quot;#4d9900&quot;&gt;禁止使用redis scan等命令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-764.5" y="1880.14" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9pCgN3VISHkSvnoCzen0-1" value="&lt;font color=&quot;#004c99&quot;&gt;考虑改造成本，可以考虑将JSON序列化改成PB序列化&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9pCgN3VISHkSvnoCzen0-1" value="&lt;font color=&quot;#004c99&quot;&gt;考虑改造成本，可以考虑将JSON序列化改成PB序列化&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-765" y="2002.6399999999999" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-1" value="管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221.5" y="1495.59" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-4" value="openapi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321.5" y="1495.59" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-5" value="鉴权端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="1495.59" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ub95xacG0pPpV-EPUlRW-8" target="ub95xacG0pPpV-EPUlRW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="256.5" y="1555.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ub95xacG0pPpV-EPUlRW-8" target="ub95xacG0pPpV-EPUlRW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="331.13" y="1575.59" width="51.25" height="51.47" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ub95xacG0pPpV-EPUlRW-8" target="ub95xacG0pPpV-EPUlRW-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463.9794999999999" y="1559.6700000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ub95xacG0pPpV-EPUlRW-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="1455.59" as="sourcePoint" />
+            <mxPoint x="361.23" y="1494.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ub95xacG0pPpV-EPUlRW-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="1445.59" as="sourcePoint" />
+            <mxPoint x="361.23" y="1494.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-11" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1466.27" width="20" height="11.09" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-16" value="熔断状态，直接拒绝请求" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="306.84" y="1424.59" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-18" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;" vertex="1" parent="1">
+          <mxGeometry x="346.75" y="1553.5" width="20" height="11.09" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-21" value="管理端依然正常使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1464.59" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;鉴权端依然正常使用&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="1464.59" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-23" value="场景1: openapi异常流量到db负载过高" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="261.50000000000006" y="1392.19" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-39" value="openapi sz1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221.5" y="1749.32" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-40" value="openapi sz2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.4100000000001" y="1749.32" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-41" value="openapi sz3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436.32000000000005" y="1749.32" width="70.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-42" value="场景2: sz2高负载，sz1节点正常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260.14000000000004" y="1640" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-43" value="熔断状态，直接拒绝请求" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="298.64" y="1673.82" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ub95xacG0pPpV-EPUlRW-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365.64" y="1709.32" as="sourcePoint" />
+            <mxPoint x="365.64" y="1749.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ub95xacG0pPpV-EPUlRW-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365.64" y="1709.32" as="sourcePoint" />
+            <mxPoint x="365.64" y="1749.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-45" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;" vertex="1" parent="1">
+          <mxGeometry x="354.65999999999997" y="1722.73" width="20" height="11.09" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-50" value="123弹性扩容新节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="407.64" y="1713.27" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-51" value="正常节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="221.5" y="1722.73" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
