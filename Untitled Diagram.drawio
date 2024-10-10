@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="1684" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="2256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2323,9 +2323,6 @@
         <mxCell id="spjUK0BMCjkrFvdMDxWn-33" value="&lt;font color=&quot;#97d077&quot;&gt;服务端调用mysql需配置连接池和超时时间&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-51" y="2030.14" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="spjUK0BMCjkrFvdMDxWn-35" value="疑问点：非走北极星调用，怎么实现限流和熔断，需考虑在在业务层统一实现？" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-219.5" y="1742.06" width="263" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-36" value="redis 集群" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="1780" width="120" height="80" as="geometry" />
         </mxCell>
@@ -2455,6 +2452,9 @@
         </mxCell>
         <mxCell id="ub95xacG0pPpV-EPUlRW-51" value="正常节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="234" y="1790.97" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ub95xacG0pPpV-EPUlRW-52" value="疑问点，熔断以后，怎么将流量转发到正常节点？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-228.99999999999997" y="1730" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
