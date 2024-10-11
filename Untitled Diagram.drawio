@@ -2350,7 +2350,7 @@
         <mxCell id="pVOyetQi-wsQMwqocvCe-1" value="&lt;font color=&quot;#f19c99&quot;&gt;限流：&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.总得限流和项目限流额度要重新评估？&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.需要考虑加上核心接口级别的限流&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-219.5" y="1625.94" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jXWj-Jjdn6jRvKLF5MqA-1" value="&lt;font color=&quot;#4d9900&quot;&gt;禁止使用redis scan等命令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jXWj-Jjdn6jRvKLF5MqA-1" value="&lt;font color=&quot;#4d9900&quot;&gt;禁止使用redis scan等命令&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-764.5" y="1880.14" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9pCgN3VISHkSvnoCzen0-1" value="&lt;font color=&quot;#004c99&quot;&gt;考虑改造成本，可以考虑将JSON序列化改成PB序列化&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
