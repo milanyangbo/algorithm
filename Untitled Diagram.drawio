@@ -2523,7 +2523,7 @@
           <mxGeometry x="-267.5" y="255" width="163" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yd1lPlVapXQlLB3qjNHC-1" value="为什么鉴权服务不用熔断机制？&lt;div&gt;熔断涉及到open-close-halfopen状态切换，涉及到一个动态过程，&lt;/div&gt;&lt;div&gt;此时不能保证鉴权的“完全”可用性。而鉴权本身功能简单，此时用降级&lt;/div&gt;&lt;div&gt;措施，然后走sdk保障机制，就更简单直接&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2118.9" width="390" height="70" as="geometry" />
+          <mxGeometry x="292" y="2129.83" width="390" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
