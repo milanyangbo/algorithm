@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="3217" dy="2437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2345,7 +2345,7 @@
           <mxGeometry x="448" y="1980" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="spjUK0BMCjkrFvdMDxWn-49" value="&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.当服务过载，需要主动触发sdk容灾&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.调整SDK容灾文件格式&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(241, 156, 153);&quot;&gt;3.将鉴权服务和容灾服务，拆成两个独立服务&lt;/span&gt;&lt;font color=&quot;#f19c99&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="422" y="2068.36" width="260" height="60" as="geometry" />
+          <mxGeometry x="414.5" y="2055.54" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pVOyetQi-wsQMwqocvCe-1" value="&lt;font color=&quot;#f19c99&quot;&gt;限流：&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;1.总得限流和项目限流额度要重新评估？&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#f19c99&quot;&gt;2.需要考虑加上核心接口级别的限流&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-219.5" y="1625.94" width="240" height="30" as="geometry" />
@@ -2523,7 +2523,7 @@
           <mxGeometry x="-267.5" y="255" width="163" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yd1lPlVapXQlLB3qjNHC-1" value="为什么鉴权服务不用熔断机制？&lt;div&gt;熔断涉及到open-close-halfopen状态切换，涉及到一个动态过程，&lt;/div&gt;&lt;div&gt;此时不能保证鉴权的“完全”可用性。而鉴权本身功能简单，此时用降级&lt;/div&gt;&lt;div&gt;措施，然后走sdk保障机制，就更简单直接&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="292" y="2129.83" width="390" height="70" as="geometry" />
+          <mxGeometry x="300" y="2129.83" width="390" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
