@@ -2453,9 +2453,6 @@
         <mxCell id="ub95xacG0pPpV-EPUlRW-51" value="正常节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="269" y="1801.64" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ub95xacG0pPpV-EPUlRW-52" value="疑问点，熔断以后，怎么将流量转发到正常节点？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-228.99999999999997" y="1730" width="290" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fxjSFGUmZc11WUgnStHa-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="305" y="1759.67" as="sourcePoint" />
