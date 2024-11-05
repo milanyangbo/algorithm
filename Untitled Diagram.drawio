@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2483" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="2290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2545,7 +2545,7 @@
         <mxCell id="8gpRs03qj8TCsyldP0Ka-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-8" target="8gpRs03qj8TCsyldP0Ka-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-8" value="七彩石降级配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-8" value="七彩石配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="72" y="-890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-10" value="1.广州深圳两地部署，避免单区域网络问题&lt;div&gt;2.轻量级，纯内存操作，系统稳定可靠&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -2572,8 +2572,8 @@
             <mxPoint x="70" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-21" value="http get请求,或机器人推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="-790" width="160" height="30" as="geometry" />
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-21" value="推送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="-800" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8gpRs03qj8TCsyldP0Ka-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2592,6 +2592,36 @@
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-30" value="定时轮训" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-145" y="-670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-31" target="8gpRs03qj8TCsyldP0Ka-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-31" value="（1）推送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-201.5" y="-245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-32" target="8gpRs03qj8TCsyldP0Ka-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-32" value="七彩石配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="31.22" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-33" target="8gpRs03qj8TCsyldP0Ka-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-33" value="降级服务A节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-75.5" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-34" value="降级服务A节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-37" value="（2）修改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.675;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-32" target="8gpRs03qj8TCsyldP0Ka-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-44" value="（3）下发七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-320" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
