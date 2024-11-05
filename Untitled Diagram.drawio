@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2601" dy="2290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2548,11 +2548,8 @@
         <mxCell id="8gpRs03qj8TCsyldP0Ka-8" value="七彩石配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="72" y="-890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-10" value="1.广州深圳两地部署，避免单区域网络问题&lt;div&gt;2.轻量级，纯内存操作，系统稳定可靠&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="205.5" y="-760" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-11" value="七彩石挂了，降级服务可以从本地容灾缓存文件读取配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="192" y="-875" width="320" height="30" as="geometry" />
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-10" value="1.广州深圳多地部署，避免单区域网络问题&lt;div&gt;2.轻量级，纯内存操作，系统稳定可靠&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-760" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -2588,7 +2585,7 @@
           <mxGeometry x="152.86" y="-660" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-28" value="推拉结合，保证降级通知能发送所有节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240.00000000000003" y="-660" width="240" height="30" as="geometry" />
+          <mxGeometry x="222.86" y="-660" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-30" value="定时轮训" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-145" y="-670" width="70" height="30" as="geometry" />
@@ -2622,6 +2619,30 @@
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-44" value="（3）下发七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="15" y="-320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-45" value="&lt;b&gt;七彩石可用情况&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-480" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-47" target="8gpRs03qj8TCsyldP0Ka-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-47" value="（1）推送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="-245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-49" value="七彩石配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576.72" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-51" value="降级服务A节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-52" value="降级服务A节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-57" value="&lt;b&gt;七彩石不可用&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="581.72" y="-480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-59" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+          <mxGeometry x="623.47" y="-430" width="26.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
