@@ -2588,7 +2588,7 @@
           <mxGeometry x="222.86" y="-660" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-30" value="定时轮训" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="-670" width="70" height="30" as="geometry" />
+          <mxGeometry x="-163" y="-670" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-31" target="8gpRs03qj8TCsyldP0Ka-33">
           <mxGeometry relative="1" as="geometry" />
