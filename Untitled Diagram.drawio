@@ -2560,7 +2560,7 @@
         <mxCell id="8gpRs03qj8TCsyldP0Ka-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-138.5" y="-882.5" width="19" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-14" value="公司环境，改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-14" value="办公环境，改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-104.5" y="-890" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
