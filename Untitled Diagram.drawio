@@ -2563,8 +2563,8 @@
         <mxCell id="8gpRs03qj8TCsyldP0Ka-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-138.5" y="-882.5" width="19" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-14" value="办公环境，改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-104.5" y="-890" width="160" height="30" as="geometry" />
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-14" value="改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-74.5" y="-890" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2572,8 +2572,8 @@
             <mxPoint x="70" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gpRs03qj8TCsyldP0Ka-21" value="非办公环境，走http get请求,或机器人推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-214.5" y="-780" width="250" height="30" as="geometry" />
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-21" value="http get请求,或机器人推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-790" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8gpRs03qj8TCsyldP0Ka-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
