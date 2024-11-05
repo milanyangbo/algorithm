@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="2944" dy="2290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2069" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2667,6 +2667,113 @@
         </mxCell>
         <mxCell id="8gpRs03qj8TCsyldP0Ka-69" value="疑问：如果北极星也不可用？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="627.25" y="-330" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-70" target="8gpRs03qj8TCsyldP0Ka-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-70" value="SDK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="909.5" y="-875" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-71" target="8gpRs03qj8TCsyldP0Ka-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-71" target="8gpRs03qj8TCsyldP0Ka-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-71" value="是否降级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="-880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-75" target="8gpRs03qj8TCsyldP0Ka-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-75" target="8gpRs03qj8TCsyldP0Ka-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-75" value="是否走容灾" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="-880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-77" target="8gpRs03qj8TCsyldP0Ka-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-77" target="8gpRs03qj8TCsyldP0Ka-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-77" value="是否有容灾文件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-79" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-872" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1282" y="-867.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-82" value="容灾文件鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="-861.25" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-84" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="-867.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-85" value="&lt;span style=&quot;&quot;&gt;走降级策略&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="-752.5" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-87" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="-792" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-88" value="走降级策略" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1182.5" y="-752.5" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-90" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="-792" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-91" target="8gpRs03qj8TCsyldP0Ka-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-91" value="熔断器调用鉴权" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="-752.5" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-93" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="-800" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-94" target="8gpRs03qj8TCsyldP0Ka-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-94" target="8gpRs03qj8TCsyldP0Ka-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-94" value="熔断器打开" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="-664" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-97" target="8gpRs03qj8TCsyldP0Ka-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gpRs03qj8TCsyldP0Ka-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1223.25" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-97" value="是否有容灾文件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1183.25" y="-664" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-99" value="容灾文件鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-645.25" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-101" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-650" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-102" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1263.25" y="-652" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-103" value="正常鉴权逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="-530" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-105" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="-575" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-109" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1212.5" y="-575" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gpRs03qj8TCsyldP0Ka-110" value="正常鉴权逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1173.25" y="-530" width="100" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
