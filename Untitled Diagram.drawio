@@ -2933,7 +2933,7 @@
         <mxCell id="XrkHMneyrcZeXpKKtCr8-56" value="&lt;b&gt;走降级服务需通知业务方&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="-584" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4GiPNwynU9TpWgLP6_5r-2" value="如果网络不通，可以走SDK本地熔断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4GiPNwynU9TpWgLP6_5r-2" value="如果网络不通，可以走SDK本地容灾" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1489" y="-320" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
