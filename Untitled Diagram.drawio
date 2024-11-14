@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram id="QbE3X5kymp9kcQfLB9qG" name="Page-1">
-    <mxGraphModel dx="3115" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2961" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2806,14 +2806,14 @@
         <mxCell id="XrkHMneyrcZeXpKKtCr8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1050" y="-590" as="targetPoint" />
-            <mxPoint x="-1170.5" y="-590" as="sourcePoint" />
+            <mxPoint x="-1190" y="-590" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XrkHMneyrcZeXpKKtCr8-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-1200.5" y="-620" width="19" height="45" as="geometry" />
+          <mxGeometry x="-1230" y="-615" width="19" height="45" as="geometry" />
         </mxCell>
         <mxCell id="XrkHMneyrcZeXpKKtCr8-11" value="改七彩石配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1160.5" y="-620" width="100" height="30" as="geometry" />
+          <mxGeometry x="-1170" y="-620" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XrkHMneyrcZeXpKKtCr8-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XrkHMneyrcZeXpKKtCr8-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2929,6 +2929,9 @@
         </mxCell>
         <mxCell id="XrkHMneyrcZeXpKKtCr8-54" value="如果网络不通，导致鉴权不可用，推荐使用SDK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1439" y="-20" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XrkHMneyrcZeXpKKtCr8-56" value="&lt;b&gt;走降级服务需通知业务方&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-584" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
